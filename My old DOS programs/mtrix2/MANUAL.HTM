@@ -1,0 +1,1479 @@
+<html>
+
+<head>
+<title>Matrix Instruction Manual</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><br>
+<font face="Times New Roman" color="#0080FF"><big><big>Matrix Spreadsheet</big></big><br>
+</font><font face="Times New Roman" color="#000000">version 2.0</font><br>
+Wednesday, 23 February 2000<br>
+<img src="matrix1.jpg" width="500" height="314" alt="screen shot of Matrix"><br>
+</p>
+
+<p align="center"><big><font face="Times New Roman">Instruction Manual</font></big></p>
+
+<table border="0" width="97%">
+  <tr>
+    <td width="4%"></td>
+    <td width="93%"><strong>Welcome to Matrix </strong><br>
+    <font face="Times New Roman">Matrix is a free DOS spreadsheet program which can be
+    downloaded from <br>
+    <a href="http://members.xoom.com/finnegam/">http://members.xoom.com/finnegam/</a><br>
+    </font><p>See the 'readme.txt' file in the archive for last minute information not
+    included in this manual.</p>
+    <p>The minimum requirements to run Matrix are:</p>
+    <table border="0" width="100%">
+      <tr>
+        <td width="3%" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="63%">A PC with at least 2 megabytes of memory and MS-DOS 6 or Windows 95/98</td>
+      </tr>
+      <tr>
+        <td width="3%" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="63%">A Math co-processor. All 486s and Pentium microprocessors have a build-in
+        math co-processor, but some 386s may have a co-processor as a separate chip.</td>
+      </tr>
+      <tr>
+        <td width="3%"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="63%">A mouse.</td>
+      </tr>
+    </table>
+    <p><br>
+    <strong>Features of Matrix:</strong></p>
+    <table border="0" width="91%" height="250">
+      <tr>
+        <td width="8%" height="1" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="1">Full mouse control, including easy range selection.</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Pull-down menus</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Variable column widths, including the option of hiding columns
+        by giving them a zero width.</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Grid of 26 columns by 100 rows minimum, or 26 by 800 rows
+        maximum</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Printer support and redirecting output to a text file for
+        further editing in a text editor or word processor.</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Built-in clipboard with cut, copy and paste with formula
+        replication across rows and columns.</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Customise all the colour elements to your liking, such as
+        scrollbar, sheet area, menu bar, status line etc. You can have alternative rows coloured
+        in different colours to make it easier to see which row you're on. Instead of the default
+        LIGHTGRAY and CYAN you can choose any other combination for every second row. Or you can
+        turn off the effect altogether by giving both rows the same colour.</td>
+      </tr>
+      <tr>
+        <td width="8%" height="21" valign="top"><font FACE="Lucida Console" size="3">·</font></td>
+        <td width="92%" height="21">Over 40 functions covering trigonometric, scientific,
+        financial, logic, date and string handling purposes. </td>
+      </tr>
+    </table>
+    <p><br>
+    <strong><font face="Times New Roman">How to enter a Matrix Function<br>
+    </font></strong>A Matrix function is always identified by the @ symbol preceding the
+    function's name. The function's name can be in either small case or capital letters or any
+    combination of both. <br>
+    <br>
+    The function's arguments, written in parentheses, specify the cell or cells on which the
+    function will act. For example, the following function, which we will assume lies in cell
+    B21, computes the total of a range of eight cells from B12 to B19:<br>
+    <br>
+    &nbsp;&nbsp;&nbsp; B21 = @SUM(B12:B19)<br>
+    <br>
+    Notice that the syntax of the range is according the Microsoft spreadsheet format i.e.,
+    B12:B19. If you are used to representing a range of cells in the Lotus 1-2-3 format this
+    may cause you to make a few typing errors until you get used to it. <br>
+    </p>
+    <p><strong>Two ways to input a formula</strong><br>
+    There are two ways of entering a formula. If you want to overwrite the current formula
+    just move the cell's cursor to the desired cell and start typing away. This is known as
+    direct mode. But if you have made a typing error when entering a complex formula you don't
+    need to go to all the bother of retyping the formula in again. Just press the F2 key to
+    enter edit mode and the input line at the bottom of the screen will display the cells
+    current contents and allow you to edit them. You can use the cursor keys to move back
+    through the formula to the part that needs to be corrected. To exit without making any
+    changes press the ESC key, or if you want to have the changes accepted press either the
+    cursor up or down keys or press RETURN. </p>
+    <p>When in either direct mode or edit mode you can move the cell's cursor up or down with
+    the cursor keys. Only in direct mode can you also move to the cell on the right by
+    pressing the cursor right key -- when in edit mode the cursor right key will not take you
+    to the next cell, but to the next character position in the input line. Direct mode is for
+    experienced spreadsheet user who want to prepare a sheet quickly and to be able to exit
+    fast from the input line and go on to the cell either above, below or to the right of the
+    current cell in just one key press. If you are new to spreadsheets its best to get used to
+    pressing the F2 key to enter edit mode, then any mistakes can be easily edited.<br>
+    </p>
+    <p><strong>The @ symbol</strong><br>
+    All functions are prefixed with the @ symbol. The @ symbol tells the expression parser
+    that the entry is a function. For example @SUM is the name of a function, and the
+    statement (B12:B19) is the argument (in this case, a range). This function tells Matrix to
+    compute the sum of the numbers located in cells B12, B13, B14, B15, B16, B17, B18, and B19
+    and display the result in cell B21.<br>
+    <br>
+    <strong>The syntax of the functions</strong><br>
+    A few functions, like @TODAY do not take an argument. These functions are discussed in
+    detail later. The syntax of a function that takes no argument is like this: @TODAY()<br>
+    <br>
+    Some functions can be quite complex. For example, several functions can be combined in a
+    single cell by having one function use other functions as its arguments. The length of an
+    argument, however, is limited; like formulas, functions can contain a maximum of 126
+    characters per cell. If the formula needs to exceed this limit you should break it up and
+    put the partial results in separate cells then use another formula in another cell to join
+    the partial results together. A separate area of the sheet can be set aside for partial
+    results. The formula in cells containing the partial results can be hidden. If you don't
+    want your partial results to be seen there are two ways to hide the cells: either give the
+    formulas in the cells the same foreground colour as the background colour or hide the
+    column of cells altogether by giving it a zero width. An example of this can be seen in
+    the calendar.mtx sheet. Unlock all the cells to see the formulas in them, then choose the
+    option from the Cols/Rows menu to reveal all the hidden columns of cells. This lets you
+    see how the sheet was originally designed before its appearance was tidied up.<br>
+    </p>
+    <p><strong>Variable Sheet Colours</strong><br>
+    The colour dialogue box allows you to select various highlight colours if you want to
+    colour different areas of the sheet. First choose the colour for the highlight as if you
+    were selecting a paintbrush colour. Then select the range of cells to be highlighted, then
+    choose &quot;colour cells&quot; in the Rows/Cols menu to apply that colour to the selected
+    range. To colour other cells in a different colour simply repeat the procedure. <br>
+    <strong><br>
+    Hiding and revealing columns</strong><br>
+    If you accidentally hide a column while in the process of narrowing its width using the
+    mouse on the column header, you can get the column back again, because an extra item has
+    been added to the &quot;Cols/Rows&quot; menu to reveal all the hidden columns. <br>
+    <br>
+    Hidden columns can be useful for storing information essential to the sheet but which you
+    would prefer not to be displayed. For example, in the calendar sheet there is some data
+    stored in hidden columns to make the calendar work. To see it choose the &quot;reveal cols
+    option&quot;.<br>
+    </p>
+    <p><strong>Formula replication</strong><br>
+    Formula replication is one of the most powerful features of any good spreadsheet program
+    because it speeds up the creation of tables, and reduces the amount of typing that needs
+    to be done when entering complex formulas.&nbsp; Formula replication in Matrix works in
+    the standard way common to most spreadsheets. Replication occurs when pasting from the
+    clipboard. If the cell references in the formula are relative they will change when pasted
+    by the relative amount (horizontally or vertically or both, and minus or plus) depending
+    on the relative difference between the original location it came from when you copied it
+    to the clipboard and the new destination you are pasting it to. If as a result of this
+    change a cell reference exceeds the bounds of the spreadsheet array loop-around occurs
+    either from forwards to backwards or from backwards to forwards. </p>
+    <p>The maximum number of lines Matrix can use will depend on the computer system. If it
+    can only affort to give Matrix 2MBs then the maximum number of lines will be 100, but if
+    there are 16MBs available the maximum number of lines will be 800. </p>
+    <p>For example: lets assume there is a maximum of only 100 lines. Assume C1 = A99+2. And
+    you then copy it to C2 the formula in C2 will look like this C2 = A100+2. But if you copy
+    it to C3 then the formula in C3 will look like this C3 = A1+2. This is an example of
+    loop-around from forwards to backwards because the spreadsheet bounds have been exceeded
+    -- there is no A101 location. Loop-around also applies to columns as well. But if you
+    &quot;hard-code&quot; the cell references in the formula by prefixing either the column
+    letter or the row number or both with the dollar symbol $ then the cell's reference is
+    declare absolute for either the column or the row or both, which means it will remain
+    unaltered when pasting. The only time when absolute references are altered in the formulas
+    is when you insert or delete a column or a row.</p>
+    <p>To see a quick demonstration of the power of formula replication load in the file
+    &quot;replicate.mtx&quot;. This file only contains a table of movable feast dates for two
+    years: 1975 and 1976, but in just 10 seconds we can build this into a much bigger table
+    covering 46 years from1975 to 2020, and without the need to type in anything. Everything
+    is done using the clipboard, the mouse, and the copy and paste options in the pull-down
+    menu. First select the line for the year 1976 and copy it to the clipboard. The line is
+    from A6 to N6. Then go down to the next line and select the range from A7 to N50. Then go
+    to the paste option or press CTRL and v. The table is filled instantly with new moveable
+    feast dates from 1977 to 2020. The complex formula in the lines have been 'cloned' for the
+    clipboard but only the cell row references in the formulas have changed in relation to the
+    new destination row that each line is copied into.&nbsp;&nbsp; </p>
+    <p>&nbsp;</p>
+    <p><strong>Auto-Calc and Manual mode</strong><br>
+    If you are beginning a new spreadsheet it might be a good idea to switch from
+    auto-calculate mode to manual mode. If you do this you will notice a quicker response
+    after each input. Then when the spreadsheet you're working on is ready you can turn on
+    auto-calculate again. It makes little sense to have Matrix waste time after each cell
+    input recalculating the entire sheet when you don't yet need to see how the new formula
+    entry effects all the other cells. If you are using a very fast computer such as a Pentium
+    III 500MHZ (or higher) then the slight delay will not be very noticeable, but if you are
+    using a 486 or even a 386 you will certainly notice a sluggish response after each input
+    if Auto-Calc is switched on. A settings and preferences file called &quot;Grid.ara&quot;
+    is stored in the root of drive C. If you delete this the default settings will be used
+    next time you run Matrix. </p>
+    <p><strong>Printing the Spreadsheet</strong><br>
+    Matrix has printer support. But if you want to redirect output to a file to edit it later
+    in a word processor or text editor then this is possible. First go to the
+    &quot;Settings&quot; option and change the name from &quot;LPT1&quot; to any other name.
+    Include a suffix such as &quot;.txt&quot; then click ok. Then when you go to the print
+    option Matrix will write a text file of that name to the current directory path. If you
+    are not sure where the file has been written just look at the path that appears in the
+    open dialogue box. If you only want to print or write out some of the sheet then select
+    the area first before printing it. <br>
+    <strong><br>
+    Improving the appearance of the spreadsheet</strong><br>
+    When you want to change the display properties of more than one cell at a time, such as
+    the alignment or the number of decimal places or whether numbers are to appear in commas
+    or not, first select the range then choose the desired option from the format menu. The
+    same also applies when locking or unlocking cells.</p>
+    <p><strong>Adjusting the speed of a double-click</strong><br>
+    Not all people double-click at the same speed. The reflexes of one user might be a whole
+    lot faster then those of another. The double-click time rate refers to timing based on the
+    build-in system clock, which means, regardless of the processor speed, the recorded
+    duration should be much the same. The recommended range of values is from 38 to 44. By
+    increasing the double -click value in the settings box you can get a better response if
+    you are a bit slow double-clicking.<br>
+    </p>
+    <p><strong>Which File is loaded?<br>
+    </strong>You can see the title of the currently loaded file by clicking on the status line
+    and hold the mouse button down. When you release it the previous normal status contents
+    reappears.</p>
+    <p><strong><br>
+    What is the time?<br>
+    </strong>Time seems to fly when you're working away at a computer. If you are engrossed
+    for some time on a spreadsheet and you haven't got a watch on you you can see the current
+    time in the about box.</p>
+    <p>&nbsp;</p>
+    <p><strong><big>Mathematical Functions</big></strong><br>
+    Matrix contains 32 functions that perform mathematical, logarithmic, and trigonometric
+    operations. These functions are built-in mathematical formulas that perform tasks which
+    would take much longer or could not be done at all with the mathematical operators alone,
+    such as *, /, +, or - or %<br>
+    <br>
+    <strong>The percentage symbol</strong><br>
+    If you enter a number like 5% it will be interpreted as 0.05, but it may be displayed as
+    5.00%. To display it as just 5% you need to go to the format menu and set the number of
+    digits after the decimal point to zero. All formulas containing a % at the end will cause
+    the cell to be displayed as a percentage. If later you enter just 5 it will still be
+    display as 500% because the cell's percentage display property was previously switched on.
+    In this case you need to toggle the percentage display off, by choosing the percent option
+    in the format menu. </p>
+    <p align="left"><strong>General Mathematical Functions</strong><br>
+    At least a few of the six functions that perform general mathematical operations will be
+    useful to almost everyone who works with Matrix. These functions are summarised in table <br>
+    </p>
+    <p align="center"><strong>Table 1<br>
+    General Mathematical Functions</strong></p>
+    <div align="center"><center><table border="1" width="99%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Function</em></td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Description</em></td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@ABS( number or cell reference)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes absolute value</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@INT(number or cell reference)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the integer portion of a specified number</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@ROUND(number or cell reference, number)&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Rounds numbers to a specified precision</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@SQRT(number or cell reference)&nbsp;</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the square root</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@RAND() </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Generates random numbers</td>
+      </tr>
+    </table>
+    </center></div><p>&nbsp;</p>
+    <p><em><strong>@ABS--Computing Absolute Value</strong></em><br>
+    The @ABS function computes the absolute value of a number. Use this function when you need
+    to convert a value from negative to positive or when you want to be absolutely sure that
+    the result is always positive. For example the @EASTER function returns a negative date if
+    Easter occurs in March, and a positive date if it occurs in April. The form of the
+    function is<br>
+    <br>
+    &nbsp;&nbsp; @ABS(number or cell reference)</p>
+    <p><br>
+    <em><strong><br>
+    @INT--Computing the Integer</strong></em><br>
+    The @INT function computes the integer portion of a number by eliminating all digits to
+    the right of the decimal point. The form of this function is <br>
+    <br>
+    &nbsp; @INT(number or cell reference)<br>
+    <br>
+    Using the @INT function is not the same as formatting the cell to display zero decimal
+    places. @INT differs from a zero decimal point format in two ways: (1) formatting changes
+    the display, but continues to store the value to its full precision; computations based on
+    the cell containing the value will use the full value. @INT on the other hand, actually
+    eliminates the decimal portion of the number and stores only the integer portion. (2) The
+    formatted display shows rounded numbers; @INT does not round, but simply eliminates the
+    decimal portion. With @INT, 4.99999 is changed to 4, not 5.<br>
+    </p>
+    <p><em><strong><br>
+    @ROUND--Rounding Numbers</strong></em><br>
+    The @ROUND function is used to round numbers to a specified precision between negative 9
+    and positive 9. @Round help you avoid potential problems caused by Matrix's floating-point
+    arithmetic. The general form of the @Round function is <br>
+    <br>
+    &nbsp; @ROUND(number or cell reference, number)<br>
+    <br>
+    The first argument is the number to be rounded. The second argument specifies the number
+    of decimal places. It should be between 0 and 9</p>
+    <p>@ROUND differs both from a formatting change and from the @INT function. Formatting
+    changes simply change the way values are displayed, not the way they are stored. @INT
+    changes the way values are displayed and how they are stored, but does not round the
+    values. @ROUND changes the way values are displayed and how there're stored, but, instead
+    of just deleting the decimal part of the value (as @INT does), rounds the numbers to a
+    specified precision.</p>
+    <p>&nbsp;</p>
+    <p><em><strong>@SQRT--Finding the Square Root</strong></em><br>
+    The @SQRT function computes the square root of a positive number. The form of the function
+    is<br>
+    <br>
+    &nbsp; @SQRT(number or cell reference)<br>
+    <br>
+    @SQRT is a simple but useful function with few restrictions. If you try to take the square
+    root of a negative number or of a number divided by zero, the function returns an ERROR.
+    Results are accurate to 15 decimal places, but this version of Matrix can only display 9
+    digits after the decimal point, but to see them you may need to adjust the column width
+    and the formatted of&nbsp; the decimal places.</p>
+    <p>&nbsp;</p>
+    <p><em><strong>@RAND--Generating Random Numbers </strong></em><br>
+    The @RAND built-in function generates pseudo-random numbers between 0 and 1. Cells
+    containing the @RAND function display a different value between 0 and 1 each time the
+    spreadsheet is recalculated. <br>
+    </p>
+    <p align="left"><strong><big>Trigonometric Functions</big></strong><br>
+    <br>
+    Matrix also has a set of trigonometric functions. If you normally use the program only for
+    financial calculations you probably will never need these functions. Trigonometric
+    functions will be invaluable, however, if you are developing engineering or scientific
+    applications Table 2 Summarises the trigonometric functions available in Matrix.</p>
+    <p align="center"><strong>Table 2<br>
+    Trigonometric Functions</strong></p>
+    <div align="center"><center><table border="1" width="98%" height="129"
+    bordercolor="#000000" bordercolorlight="#000000" bordercolordark="#000000"
+    bgcolor="#FFFFFF">
+      <tr>
+        <td width="50%" height="21" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top"><em>Function</em></td>
+        <td width="50%" height="21" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top"><em>Description</em></td>
+      </tr>
+      <tr>
+        <td width="50%" height="20" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">@PI()
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </td>
+        <td width="50%" height="20" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">Computes the value of the constant pi</td>
+      </tr>
+      <tr>
+        <td width="50%" height="26" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">@SIN(number or cell reference)</td>
+        <td width="50%" height="26" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">Computes the sine</td>
+      </tr>
+      <tr>
+        <td width="50%" height="21" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">@COS(number or cell reference)&nbsp; </td>
+        <td width="50%" height="21" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">Computes the cosine</td>
+      </tr>
+      <tr>
+        <td width="50%" height="11" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">@TAN(number or cell reference)</td>
+        <td width="50%" height="11" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">Computes the tangent</td>
+      </tr>
+      <tr>
+        <td width="50%" height="10" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">@ACOS(number or cell
+        reference)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" height="10" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF"
+        bordercolordark="#FFFFFF" valign="top">Computes the arcosine</td>
+      </tr>
+    </table>
+    </center></div><p><br>
+    <em><strong>@PI--Computing Pi</strong></em><br>
+    The @PI function simply computes the value of pi, accurate to 15 decimal places, or
+    3.141592653589794. @PI is one of the functions that take no arguments. The form of PI is<br>
+    &nbsp; @PI()<br>
+    <br>
+    Remember that whenever @PI is used in the spreadsheet, the full 15-place value is
+    returned, even though the column width or formatted number of decimal places may be too
+    small to display the entire value.<br>
+    <br>
+    @PI is useful in a variety of trigonometric equations, such as converting the degrees of
+    an angle to radians. To compute the radians of an angle use the formula:<br>
+    &nbsp;&nbsp;&nbsp; <br>
+    &nbsp; Radians = @PI() * Degrees / 180<br>
+    </p>
+    <p>&nbsp;</p>
+    <p><em><strong>@SIN, @COS, and @TAN-Computing<br>
+    Trigonometric Functions</strong></em></p>
+    <p>The @SIN, @COS, and @TAN functions calculate the sine, cosine, and tangent,
+    respectively, of an angle in radians. These functions take the following form:<br>
+    &nbsp; @SIN(angle in radians or cell reference)<br>
+    <br>
+    &nbsp; @COS( angle in radians or cell reference)<br>
+    <br>
+    &nbsp; @TAN(angle in radians or cell reference)<br>
+    <br>
+    If you know the degrees of an angle, you can compute the radians by using this formula:<br>
+    <br>
+    &nbsp; Radians = PI() * Degrees/180<br>
+    </p>
+    <p><big>Logarithmic Functions</big><br>
+    Matrix provides three logarithmic functions primarily for use in engineering, scientific,
+    and other complex equations. Table 3 lists the logarithmic functions with descriptions of
+    their use.</p>
+    <p align="center"><strong>Table 3<br>
+    Logarithmic Functions</strong></p>
+    <div align="center"><center><table border="1" width="100%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Function </em></td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Description</em></td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@LOG(number or cell reference)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the (base 10) logarithm</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@EXP(number or cell reference)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the value of the constant <em>e</em> raise to a specified power</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@LN(number or cell reference)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the natural logarithm</td>
+      </tr>
+    </table>
+    </center></div><p><br>
+    <strong><em>@LOG--Computing Logarithms</em></strong><br>
+    As its name implies, the @LOG function calculates the logarithm(base 10) of a positive
+    number. The form of the function is<br>
+    <br>
+    &nbsp; @LOG(number or cell reference)<br>
+    <br>
+    If the argument of the @LOG function is a negative value or zero, an error will be
+    returned<br>
+    <br>
+    <br>
+    <strong>@EXP--Finding Powers of <em>e</em></strong><br>
+    The @EXP function calculates the value of the constant e raised to a power specified by
+    the argument, where e equals approximately 2.7182818. The form of @EXP is<br>
+    <br>
+    &nbsp; @EXP(number or cell references)<br>
+    <br>
+    <br>
+    <br>
+    <em><strong>@LN--Computing Natural Logarithms</strong></em><br>
+    The @LN function calculates the natural logarithm (base e) of the argument. The form of
+    @LN is<br>
+    &nbsp; @LN(number or cell reference)<br>
+    <br>
+    The value of the argument must be a positive number; otherwise, the function will
+    calculate an error and display ERROR in the cell.<br>
+    <br>
+    <br>
+    <strong><big>Statistical Functions</big></strong><br>
+    Matrix contains a set of functions that can perform simple statistical analyses. These
+    functions are used typically with an argument consisting of a range of cells. A range is a
+    rectangular block of one or more cells. The syntax is like this A1:A12<br>
+    <br>
+    Table 4 summarises the statistical functions available in Matrix</p>
+    <p align="center"><strong>Table 4<br>
+    Statistical Functions</strong></p>
+    <div align="center"><center><table border="1" width="99%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF" height="218">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19"><em>Function&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19"><em>Calculates</em></td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">@AVG(range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">Average of nonblank cell in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="18">@COUNT(range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="18">Number of nonblank entries in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">@MAX(range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">Maximum value in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">@MIN(range)&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">Minimum value in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">@SUM(range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">Total of values in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">@VAR(range) </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="19">Population variance of values in the range</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="38">@STD(range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top" height="38">Population standard deviation of values in the range</td>
+      </tr>
+    </table>
+    </center></div><p><br>
+    <strong><big>Basic Statistical Functions</big></strong><br>
+    <br>
+    Matrix's simpler statistical functions are @SUM, @MAX, @MIN, @COUNT, and @AVG. The most
+    basic of these (@SUM) has many uses outside as well as within a statistical context. @SUM
+    is frequently used in spreadsheets and you will undoubtedly find it useful in many
+    applications. The other basic statistical functions are used less widely but are still
+    handy tools.<br>
+    </p>
+    <p><strong><em>@SUM--Calculating Sums</em></strong><br>
+    @SUM(range) computes the sum of a range of entries. The range is typically a partial row
+    or a column, but a range can also be a block defined by cell co-ordinates. For example, in
+    a simple worksheet the function @SUM(A1:A2) returns the value 110, or 345 + 765.<br>
+    <br>
+    One advantage of the @SUM function (and other range functions as well) is that @SUM is
+    more adaptable than a formula to changes made in the spreadsheet with cut-and-paste
+    commands. For example, the function @SUM(A1:C1) is equivalent to the formula A1+B1+C1<br>
+    </p>
+    <p><strong><em>@MAX and @MIN--Computing Maximum<br>
+    and Minimum Values</em></strong><br>
+    The @MAX and @MIN functions return the maximum and minimum values in a range. As with the
+    @SUM function, the range can be a partial row or column, a block of several partial rows
+    and columns.</p>
+    <p><br>
+    <em><strong>@COUNT--Counting Entries in a Range</strong></em><br>
+    The @COUNT function is similar to the @MAX, @MIN, and @SUM functions. @COUNT returns the
+    count of the number of nonblank entries in a range. The cells in the range can contain
+    either text or numbers or formulas.</p>
+    <p><br>
+    <em><strong>@AVG--Computing the Average (Mean)</strong></em><br>
+    The final function in this group is @AVG. This function computes the mean, or average, of
+    all the numeric cells in the range.<br>
+    <br>
+    The @AVG function does not returns the same value as the @SUM function divided by the
+    @COUNT if any cells within the rage contain text. @AVG only looks at numeric cells in a
+    range, whereas @COUNT counts at all nonblank cells in a range. @AVG return the average of
+    all the numeric cells in the range but ignores nonblank cells and cells containing text.</p>
+    <p>&nbsp;</p>
+    <p><strong><big>Advanced Statistical Functions</big></strong><br>
+    Although you are probably familiar with statistics if you are interested in using advanced
+    statistical functions, we will provide a brief review here as a foundation for the
+    explanation of Matrix's functions.<br>
+    <br>
+    One basic statistic is the mean, often called the arithmetic average, which is commonly
+    used to mark the average of a group of data values. The mean is calculated by adding the
+    values and dividing the sum by the number of values. The mean is not to be confused with
+    the median or mode, which are also measures of central tendency. The median is the value
+    midway between the highest and lowest value in the group, in terms of probability. Half of
+    the values in the group are above the median, and half are below it. The mode is the most
+    probable value in a group of items (that is, the value that occurs most often).<br>
+    <br>
+    Variance and standard deviation are related dispersion statistics. The variance is the
+    amount of deviation from the mean. The standard deviation, closely related to the
+    variance, is the degree of deviation from the mean, or the square root of the Variance.</p>
+    <p>To calculate the variance, you subtract the mean of the numbers from each number in the
+    group and square each result. You then add the squares and divide the total by the number
+    of items in the group. To compute the standard deviation, you take the square root of the
+    variance.<br>
+    <br>
+    Matrix has two functions that automatically perform these calculations for you. These
+    advanced statistical functions are</p>
+    <div align="center"><center><table border="1" width="99%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@VAR(list)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the population variance</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@STD(list)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Computes the standard deviation of a population</td>
+      </tr>
+    </table>
+    </center></div><p>An example of these two function is contained in the example file
+    var.mtx<br>
+    <br>
+    Referring to this example file what does the standard deviation tell you? As a general
+    rule, about 67 percent of the items in a normally distributed population will fall within
+    a range that is plus or minus one standard deviation of the mean. In the example, that
+    means that roughly 67 per cent of the salesmen sold between 77 and 125 items. About 95
+    percent of the items in a normally distributed population fall within plus or minus two
+    standard deviations of the mean.<br>
+    <br>
+    To make further use of the statistical functions, you should know the difference between
+    population and sample statistics. Population statistics are used when you know the value
+    of all the items in a population. But when the number of items is large and you don't know
+    them all (which is usually the case), you are unable to compute the population statistics.
+    Instead, you must rely on sample statistics as estimates of the population statistics.</p>
+    <p>In the sales example, if we realistically assume that we had only a small portion of
+    the entire population of sales figures, we can compute the sample statistics. This is even
+    more realistic if we examine only one month's sales out of the total population of all the
+    monthly sales for a year. When we move into the realm of sample statistics, we start
+    dealing with much more sophisticated statistical concepts.<br>
+    <br>
+    To calculate the sample variance for the previous sales data, you multiply the population
+    variance by n/n-1 (degrees of freedom), where n equals the number of items in the sample.
+    The degrees of freedom tell you how much freedom you have in calculating a variance.<br>
+    <br>
+    We use the @COUNT function to determine the degree of freedom:<br>
+    Degree of freedom = @COUNT(list)/ (@COUNT(list)-1)*@VAR(list)<br>
+    <br>
+    To compute the standard deviation of the sample, we take the square root of the sample
+    variance. A convenient way to do this is to use the @SQRT function:<br>
+    Sample Standard Deviation = @SQRT(Sample Variance) =<br>
+    @SQRT(@COUNT(list)/(@COUNT(list)-1)*VAR(list))<br>
+    <br>
+    Because standard deviation is the square root of the variance, we can also compute the
+    sample standard deviation using the following formula:<br>
+    Sample Standard Deviation = @SQRT(degrees of freedom)@STD(list) =<br>
+    @SQRT(@COUNT(list)/ (@COUNT(list) -1))*@STD(list)<br>
+    </p>
+    <p><strong>Analysing Investments and<br>
+    Calculating Depreciation</strong><br>
+    Matrix has 11 financial functions that perform a variety of investment calculations, and
+    three functions that calculate book depreciation. The basic financial functions, @NPV and
+    @IRR, calculate the return on an investment; @PV, @FV, and @PMTC perform loan and annuity
+    calculations. @EFF and @NOM for converting from effective interest rate to the nominal
+    rate and vise versa. The @RATE, @TERM, and @CTERM functions perform compound-growth
+    calculations. The @IRATE function finds the nominal rate at which the outstanding balance
+    of a loan is compounded per period, (usually every month). The last three functions @SLN,
+    @DDB, and @SYD calculate depreciation by three commonly used methods. Table 5 reviews the
+    financial functions available in Matrix</p>
+    <p align="center"><strong>Table 5<br>
+    Financial Functions</strong></p>
+    <div align="center"><center><table border="1" width="99%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF" height="320">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="19" valign="top"><em>Investment
+        Functions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="19" valign="top"><em>Calculates</em></td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">@NPV(int, range)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">Net Present value of an investment and a series of periodic cash
+        flows</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">@IRR(guess, range)&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">Internal rate-of-return of a series of periodic cash flows</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">@PV(pmt, int, term)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+        </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">Present value of a series of equal cash flows</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="19" valign="top">@FV(pmt, int, term)&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="19" valign="top">Future value of a series of equal payments</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="10" valign="top">@PMTC(prin, int, term, x12)&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="10" valign="top">Periodic payment amount</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="5" valign="top">@EFF(nominal rate, x12)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="5" valign="top">Convert to the Effective Interest rate</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="4" valign="top">@NOM(effective rate, x12)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="4" valign="top">Convert to the nominal Interest rate</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="10" valign="top">@RATE(fv, pv, term)&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="10" valign="top">Return on an investment</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="9" valign="top">@IRATE(prin, term, x12, pmt)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="9" valign="top">Return nominal annual interest rate a loan is charged at.</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">@TERM(pmt, int, fv)&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">Number of payment periods of an investment</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">@CTERM(int, fv, pv)&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        height="38" valign="top">Number of compounding periods an investment must grow for a
+        desired return</td>
+      </tr>
+    </table>
+    </center></div><p>&nbsp;</p>
+    <div align="center"><center><table border="1" width="99%" bordercolor="#000000"
+    bordercolorlight="#000000" bordercolordark="#000000" bgcolor="#FFFFFF">
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Depreciation Functions&nbsp; </em></td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top"><em>Calculates</em></td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@DDB(cost, salvage, life, period) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Double-declining-balance depreciation</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@SYD(cost, salvage, life, period) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Sum-of-the-years' digits depreciation</td>
+      </tr>
+      <tr>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">@SLN(cost, salvage, life)</td>
+        <td width="50%" bordercolor="#FFFFFF" bordercolorlight="#FFFFFF" bordercolordark="#FFFFFF"
+        valign="top">Straight-line depreciation</td>
+      </tr>
+    </table>
+    </center></div><p><br>
+    <strong>Definition of terms</strong></p>
+    <div align="left"><table border="0" width="100%" height="122">
+      <tr>
+        <td width="7%" height="21"><em>int</em></td>
+        <td width="7%" height="21" align="center">=</td>
+        <td width="39%" height="21">periodic interest rate</td>
+        <td width="11%" height="21"><em>cost</em></td>
+        <td width="6%" height="21" align="center">=</td>
+        <td width="30%" height="21">cost of asset</td>
+      </tr>
+      <tr>
+        <td width="7%" height="21"><em>prin </em></td>
+        <td width="7%" height="21" align="center">=</td>
+        <td width="39%" height="21">principal amount </td>
+        <td width="11%" height="21"><em>salvage</em></td>
+        <td width="6%" height="21" align="center">=</td>
+        <td width="30%" height="21">asset salvage value</td>
+      </tr>
+      <tr>
+        <td width="7%" height="18"><em>pv</em></td>
+        <td width="7%" height="18" align="center">=</td>
+        <td width="39%" height="18">present value</td>
+        <td width="11%" height="18"><em>life</em></td>
+        <td width="6%" height="18" align="center">=</td>
+        <td width="30%" height="18">asset life</td>
+      </tr>
+      <tr>
+        <td width="7%" height="21"><em>fv&nbsp;&nbsp; </em></td>
+        <td width="7%" height="21" align="center">=</td>
+        <td width="39%" height="21">future value</td>
+        <td width="11%" height="21"><em>period</em></td>
+        <td width="6%" height="21" align="center"><em>=</em></td>
+        <td width="30%" height="21">specific year</td>
+      </tr>
+      <tr>
+        <td width="7%" height="21" rowspan="2" valign="top"><em>term</em></td>
+        <td width="7%" height="21" align="center" rowspan="2" valign="top">=</td>
+        <td width="39%" height="21" rowspan="2" valign="top">number of periods</td>
+        <td width="11%" height="21" valign="top" rowspan="2"><em>x12</em></td>
+        <td width="6%" height="21" align="center" valign="top" rowspan="2">=</td>
+        <td width="30%" height="11">number of compounding </td>
+      </tr>
+      <tr>
+        <td width="30%" height="10">periods per year</td>
+      </tr>
+    </table>
+    </div><p><br>
+    <em><strong>@NPV--Net Present Value</strong></em><br>
+    The @NPV function computes the net present value of a stream of cash flows. The form of
+    this function is<br>
+    <br>
+    &nbsp; @NPV(Discount Rate, Range)<br>
+    <br>
+    Discount Rate is the interest rate that Matrix uses to compute the net present value.
+    Range is the stream of cash flows to be discounted. The interval between the cash flows
+    must be constant and must agree with the period of the discount rate. For example, an
+    annual discount rate should be used for cash flows occurring a years apart. If the cash
+    flows occur every month, a monthly rate should be used (divide the annual discount rate by
+    12).</p>
+    <p>The @NPV function can be used to evaluate a variety of investment opportunities. For
+    example, suppose that you had an opportunity to invest in a share of real estate which
+    would create the following cash flows over the next five years:<br>
+    &nbsp;&nbsp;&nbsp; End of Yr&nbsp;&nbsp;&nbsp; Cash flow<br>
+    &nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; (2,000)<br>
+    &nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 1,000<br>
+    &nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp; 1,500<br>
+    &nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 1,500<br>
+    &nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 1,500<br>
+    You can create a simple worksheet to evaluate this investment, as illustrate in the
+    example file &quot;npv.mtx&quot;. The function @NPV(B1, C7:G7) returns 2202.63, the net
+    present value of that stream at a discount rate of 9 percent if the investment is made at
+    the end of year 1. The function @NPV(B1, D9:G9)+C9 returns a value of 2400.86 at a
+    discount rate of 9 percent if the investment is made at the beginning of year 1.<br>
+    <br>
+    If 9 percent represents the rate you need on the investment, and could earn on other
+    investments with a similar degree of risk, and the NPV of the investment is greater than
+    or equal to £2,000, you can conclude that the real estate share probably offers a good
+    investment opportunity. Note that the difference in the two calculated NPVs shows that the
+    timing of the investment is important; you can earn an extra £198.23 if you made the
+    investment at the beginning of year 1.<br>
+    <br>
+    We use a cell reference, B1, to enter the discount rate into the function. Because it
+    would be just as easy to enter the formula @NPV(.09, D9:G9), you might wonder why we took
+    the approach we did. In fact, there is no advantage to using either method until you
+    decide to change the rate.<br>
+    <br>
+    For example, assuming that in the example file &quot;npv.mtx&quot; you wanted to evaluate
+    the investment using a rate of 14 percent. With the method we used, all you need to do is
+    enter the number .14 or 14% into cell B1 and recalculate the sheet. If the rate had been
+    embedded in the formula, we would have to edit the cell, replace the .09 with .014, close
+    the cell, and then recalculate. If several changes were required, this operation would
+    waste valuable time. Using a cell reference, however, we can quickly update the analysis
+    as interest rates change or new investment opportunities arise.<br>
+    </p>
+    <p><strong><em>@IRR--Internal Rate of Return</em></strong><br>
+    Internal rate of return (IRR) is the discount rate that equates the present value of
+    expected cash outflows with the present value of expected inflows. In simpler terms, IRR
+    is the rate of return, or percentage of profit, that an investment is expected to earn.
+    Like net present value, internal rate of return determines the attractiveness of an
+    investment opportunity.</p>
+    <p>The @IRR function is built on an iterative process in which you provide an initial
+    estimated discount rate (anything between 0 and 1 will do); Matrix then calculates the
+    actual discount rate, calculating the Net Present Value of the series of cash outflows and
+    in flows using your estimated interest rate. On each iteration it compare the result with
+    0.0. If the result is below 0 it decreases you estimated interest rate and tries again. If
+    the result is above 0 it increases the estimated interest rate and tries again. The amount
+    by which the interest rate is increased or decreased is roughly half the previous rate. It
+    keeps going through this iteration process until either it has looped 1,000 times, in
+    which case an error is returned, or until it has reached an estimated interest rate that
+    when applied to the NPV function result in 0.0 (give or take a tiny fraction.) The
+    interest rate that achieved a Net Present Value of 0.0 for those cash outflows and inflows
+    is then returned as the Internal Rate of Return. It is the interest rate that determines
+    how profitable the investment is.<br>
+    <br>
+    You may encounter some problems with the @IRR function. As indicated earlier, Matrix may
+    not converge on a value based on your initial estimate. Either the stream of cash flows
+    does not have an internal rate of return, or your initial estimate is too far from the
+    actual internal rate of return for Matrix to converge within 1000 iterations.<br>
+    <br>
+    An extreme example of the stream of cash flows without an internal rate of return is a
+    stream of all outflows without no inflows. Without income to cover the expenditures, no
+    interest rate will yield a net present value of 0, and @IRR will return an error message.<br>
+    <br>
+    If you get an error message or an unreasonable value from the @IRR function, try different
+    initial estimates and then double-check the result.<br>
+    </p>
+    <p><em><strong>@PV--Present Value</strong></em><br>
+    The @PV function is used to calculate the present value of an ordinary annuity for a given
+    number of periods and interest rate. An ordinary annuity is a series of payments made at
+    the end of equally spaced intervals, and present value is the value today of the payments
+    to be made or received later, discounted at a given interest or discount rate.<br>
+    <br>
+    Calculating the present value of an ordinary annuity gives you a way to compare different
+    investment opportunities or potential obligations while taking into account the time value
+    of money.<br>
+    <br>
+    The general form of the @PV function is<br>
+    &nbsp; @PV(payment, interest, term)<br>
+    <br>
+    You can use the @PV function in a formula to calculate the present value of an annuity
+    due, or annuity in arrears. That formula is<br>
+    Present Value of<br>
+    An Annuity Due = @PV(payment, interest, term)*(1+interest)<br>
+    <br>
+    Like an ordinary annuity, an annuity due is a series of payments, but made at the
+    beginning of equally spaced time intervals. The example sheet &quot;pv.mxt&quot; shows the
+    results of calculating the present value of an ordinary annuity and an annuity due.<br>
+    <br>
+    The difference between @NPV, the function for net present value, and @PV stems from the
+    difference in cash flows and how the cash flow values are arranged in the spreadsheet.
+    @NPV calculates the net present value of a series of flows that may or may not be equal,
+    but that are all contained in a range of cells in the spreadsheet. The cash flows in the
+    @PV function must all be equal, and the amount of the flows must be contained in a single
+    cell or entered as a value in the @PV function. Remember to use the @NPV function to
+    calculate the present value of a stream of unequal cash flows.</p>
+    <p><strong><em>@FV--Future Value</em></strong><br>
+    The @FV function is similar in form to the @PV function, but is used to calculate the
+    future value of an ordinary annuity. Future value is the value at a given day in the
+    future of a series of payments or receipts, compounded at a given interest or discount
+    rate. Calculating the future value of an ordinary annuity allows you to compare different
+    investment alternatives or potential obligations. The @FV function looks like this:<br>
+    &nbsp; @FV(payment, interest, term)</p>
+    <p>You can calculate the future value of an annuity due with a formula similar to the one
+    that calculates present value of an annuity due. The formula is<br>
+    &nbsp; Future Value of<br>
+    &nbsp; An Annuity Due = @FV(payment, interest, term)*(1+interest)<br>
+    <br>
+    The example file &quot;fv.mxt&quot; shows the results of calculating the future value of
+    an ordinary annuity and an annuity due.</p>
+    <p><br>
+    <em><strong>@PMTC--Calculating loan Payment Amounts</strong></em><br>
+    The @PMTC function calculates the payment required for a given principal, interest rate,
+    and number of periods. This function is used to calculate mortgage or loan repayments. The
+    format of the @PMTC function with <em>n</em> equalling the number of periods is<br>
+    @PMTC(principal, interest, n, 12)<br>
+    <br>
+    If the number of compounding periods is less than 12, for example every two months, then
+    change the 12 to 6. The principal is the initial amount borrowed. The interest is the
+    nominal or flat rate. Example 13.772% is entered as either 13.772% or 0.13772. </p>
+    <p>To give an example: suppose you wish to borrow £4,667 for 4 years, repaying in monthly
+    instalments, with the outstanding loan balance of the loan compounded monthly at a flat
+    rate of 13.772% annually then the figures you would enter are:<br>
+    @PMTC(4667, 13.772%, 48, 12) <br>
+    The result returned is rounded to the nearest penny. In this example it is £127</p>
+    <p><br>
+    <em><strong>@Eff--Find the effective Interest rate</strong></em><br>
+    The @Eff function converts from the nominal rate to the Effective rate. For example if a
+    Credit Union charges a nominal rate of 1% compounded monthly on a loan then the true rate
+    would be approximately 12.68%. <br>
+    <br>
+    The format of the @Eff function is<br>
+    &nbsp; @Eff(nominal rate, x12)<br>
+    <br>
+    x12 is the number of times the nominal rate is compounded per year. If it is compounded
+    every quarter x12 would be 3, if every two months it would be 6, if every 6 months it
+    would be 2.&nbsp;&nbsp;&nbsp;&nbsp; <br>
+    </p>
+    <p><em><strong>@Nom--Find the nominal Interest rate</strong></em><br>
+    The @Nom function converts from the effective rate to the nominal rate. For example if a
+    Credit Union charges a nominal rate of 1% compounded monthly on a loan then the nominal
+    annual rate would be 12%, and the effective rate approximately 12.68%. <br>
+    <br>
+    The format of the @Nom function is<br>
+    &nbsp; @Nom(effective rate, x12)<br>
+    <br>
+    x12 is the number of times the nominal rate is compounded per year. If it is compounded
+    every quarter x12 would be 3, if every two months it would be 6, if every 6 months it
+    would be 2.&nbsp;&nbsp;&nbsp;&nbsp; </p>
+    <p><strong><em><br>
+    @RATE--Compound Growth Rate</em></strong><br>
+    The @RATE function calculates the periodic interest rate necessary for an investment (<br>
+    present-value) to grow to a future-value over the number of compounding periods in term.<br>
+    The format of this function, where n equals the number of periods, is <br>
+    &nbsp; @RATE( future value, present value, n)<br>
+    <br>
+    For example, suppose you invested $10,000 in a bond that matures in five years and has a
+    maturity value of $18,000. Interest is compounded monthly. You want to determine the
+    periodic interest rate for this investment.<br>
+    @RATE(18000,10000,60) returns 0.984%, the periodic (monthly) interest rate. To determine
+    the annual interest rate, use the formula ((1+@RATE(18000,10000,60))^12)-1. This yields an
+    annual interest rate of 12.47%.<br>
+    <br>
+    The @FV function's basic formula calculates the future value of an initial investment
+    given the interest rate and the number of periods. For the @RATE calculation, the formula
+    is rearranged to compute the interest rate in terms of the initial investment, the future
+    value,and the number of periods.<br>
+    Interest Rate = (future value/ present value)^(1/n) -1<br>
+    <br>
+    As another example, you could use the @RATE function to determine the yield of a
+    zero-coupon bond that is sold at a discount of its face value. Suppose that for £350 you
+    can purchase a zero-coupon bond with a £1,000 face value maturing in 10 years. What is
+    the implied annual interest rate? The answer is show in the file &quot;rate.mtx&quot;.<br>
+    <br>
+    The @RATE function is also useful in forecasting compound growth rate between current and
+    projected future revenues, earnings, and so on.</p>
+    <p>&nbsp;</p>
+    <p><em><strong>@IRATE--Finds the nominal interest rate of a loan. </strong></em></p>
+    <p>The @IRATE function is useful when you want to find the nominal interest rate the
+    outstanding balance of a loan is charged at per year.</p>
+    <p>The format of the function is</p>
+    <p>&nbsp; @IRATE(principal, term, x12, pmt)</p>
+    <p>where <em>principal</em> is the amount you wish to borrow; <em>term</em> is the total
+    number payments over the life of the loan; x12 is the number of compounding periods per
+    year. This is usually 12, but if the loan balance was being compounded every two months,
+    x12 would be 6. <em>Pmt</em> is the periodic payment.</p>
+    <p>To clarify all of this, suppose you wish to borrow £4667 to buy a second-hand car. To
+    replay the loan with interest over 4 years you agreed to pay 48 monthly payments of £127.
+    You want to find the annual nominal interest the lender is charging. The parameters your
+    would enter are:</p>
+    <p>&nbsp; @IRATE(4667, 48, 12, 127)&nbsp;&nbsp; </p>
+    <p>To give another example. Suppose you are resident in Ireland and you want to borrow
+    £999 to buy a Fujitsu Pentium III 6000mhz computer system from the ESB.&nbsp; You agree
+    to make 18 payments over three years, one payment every two months, with your regular
+    electricty bill. Each payment is £69.63. You want to find the nominal rate of the loan
+    and the APR rate. (In Ireland and Britain APR, <em>Annual Percentage Rate</em>, refers to
+    the <em>Effective Interest Rate</em>, but the Americans use the term to refer to the
+    nominal interest rate. This leads to some confusion. However, in this example we will
+    assume APR refers to the <em>Effective Interest Rate</em>, because that's what it refers
+    to in the ESB's advertisements.) </p>
+    <p>The formula you enter looks like this:</p>
+    <p>&nbsp; =@EFF(@IRATE(999.00, 18, 6, 69.63), 6)</p>
+    <p>And the result returned is 16% or 0.16. This is the effective annual interest rate of
+    the loan.</p>
+    <p>&nbsp;</p>
+    <p><strong><em>@TERM -- Term of an Investment</em></strong><br>
+    The @TERM function calculates the number of periods required to accumulate a specified
+    future value by making equal payments into an interest bearing account at the end of each
+    period. The form of the @TERM function is<br>
+    @TERM(payment, interest, future value)<br>
+    <br>
+    The @Term function is similar to the @FV function except that instead of finding the
+    future value of a stream of payments over a specified period, the @TERM function finds the
+    number of periods required to reach the given future value.</p>
+    <p>Suppose you want to determine the number of months required to accumulate £5,000 by
+    making a monthly payment of £50 into an account paying 6 percent annual interest
+    compounded monthly (.5 percent per month). The example file &quot;term.mtx&quot; shows how
+    @TERM can help you get the answer, which is slightly more than 81 months (6 years and 9
+    months) for an ordinary annuity, but slightly less than 81 months for an annuity due. For
+    this account, making the deposit at the beginning of the month makes only a little
+    difference.<br>
+    <br>
+    To calculate the TERM for an annuity due, use the equation<br>
+    &nbsp; TERM for<br>
+    &nbsp; Annuity Due = @TERM(payment, interest, future value)/(1+interest)<br>
+    </p>
+    <p><em><strong>@CTERM--Compound Term of an Investment</strong></em><br>
+    The @CTERM function calculates the number of periods required for an initial investment
+    earning a specified interest rate to grow to a specified future value. Whereas @TERM
+    calculates the number of periods needed for a series of payments to grow to a future value
+    at a specified interest rate, the @CTERM function specifies the present value, the future
+    value, and the interest rate, and finds the required number of periods. The form of the
+    @CTERM function is<br>
+    &nbsp; @CTERM( interest, future value, present value)</p>
+    <p>The @CTERM function is useful for determining the term of an investment necessary to
+    achieve a specific future value. For example, suppose that you want to determine how many
+    years it will take for £2,00 invested in an Interest bearing account at 10 percent
+    interest to grow to £10,000. The example file &quot;cterm.mtx&quot; shows how to use the
+    @CTERM function to determine the answer, which is just over 16 years and 10 months.<br>
+    <br>
+    </p>
+    <p><strong><em>@SLN-Straight --Line Depreciation</em></strong><br>
+    The SLN function calculates straight-line depreciation given the asset's cost, salvage
+    value, and depreciable life. The form of the function is<br>
+    @SLN(cost, salvage value, life)</p>
+    <p>The formula used to calculate @SLN is<br>
+    SLN = (cost - salvage value) / life<br>
+    <br>
+    The @SLN function conveniently calculates straight-line depreciation for an asset. For
+    example, suppose that you have purchased a machine for £1,000 that has a useful life of
+    three years and a salvage value estimated to be 10 percent of the purchased price (£100)
+    at the end of its useful life. The example file &quot;ddb.mtx&quot; shows how to use @SLN
+    function to determine the straight-line depreciation for the machine, £300 per year.</p>
+    <p>&nbsp;</p>
+    <p><strong><em>@DDB-Double--Declining-Balance Depreciation</em></strong><br>
+    The @DDB function calculates depreciation using the double-declining balance method, with
+    depreciation ceasing when the book value reaches the salvage value.
+    Double-declining-balance depreciation is a method of accelerating depreciation so that
+    greater depreciation expense occurs in the earlier periods rather than the later ones.
+    Book value in any period is the purchase price less the total depreciation in all prior
+    periods.<br>
+    <br>
+    The form of the @DDB function is<br>
+    &nbsp; @DDB(cost, salvage value, life, period)<br>
+    <br>
+    In general, the double-declining-balance depreciation in any period is<br>
+    Book value * 2/n</p>
+    <p>The book value is the book value in the period, and n is the depreciable life of the
+    asset. Matrix, however, like Lotus 1-2-3, adjusts the results of this formula in later
+    periods in to ensure that total depreciation does not exceed the purchase price less the
+    salvage value.<br>
+    <br>
+    The example file &quot;ddb.mtx&quot; shows how the @DDB function can calculate
+    depreciation on an asset purchased for £1,000, with a depreciable life of three years and
+    an estimated salvage value of £100. The example file also shows a comparison of the
+    results of the @DDB and the @SLN functions.<br>
+    <br>
+    Keep in mind when you use the double-declining-balance depreciation method for an asset
+    worth a small salvage value, the asset will not be fully depreciated in the final year. If
+    this is the case with one of your assets, you'll need to calculate the remaining
+    depreciation for the one additional year. For example, if the asset in the example file
+    has a salvage value of £10 rather than £100, you can use the formula <br>
+    (C2-C3)-@SUM(D13:F13) in cell G13 to calculate the remaining depreciation <br>
+    </p>
+    <p><strong><em>@SYD-Sum-of-the-Years'-Digits Depreciation</em></strong><br>
+    The @SYD function calculates depreciation by the sum-of-the-years'-digits method. This
+    method also accelerates depreciation so that the earlier life of the item reflects greater
+    depreciation than later periods.<br>
+    <br>
+    The form of the function is<br>
+    &nbsp; @SYD(cost, salvage value, life, period)<br>
+    <br>
+    in which the cost is the of the purchase cost of the asset, the salvage value is the
+    estimated value of the asset at the end of the depreciable life, life is the depreciable
+    life of the asset, and period is the period for which depreciation is to be computed.<br>
+    <br>
+    @SYD calculates depreciation with the following formula:<br>
+    <br>
+    ((cost - salvage value)* ( life period +1)) / (life*(life+1)/2)<br>
+    <br>
+    The expression life period+1 in the numerator shows the life of the depreciation in the
+    first period, decreased by 1 in each subsequent period. This reflects the declining
+    pattern of depreciation over time. The expression in the denominator, life*(life+1)/2, is
+    equal to the sum of the digits 1+2 + &#133; + life. This is the origin of the name
+    sum-of-the-years'-digits.<br>
+    <br>
+    The example file &quot;ddb.mtx&quot; shows how the @SYD function can calculate
+    depreciation for an asset costing £1,000 with a depreciable life of three years and an
+    estimated salvage value of £100 <br>
+    </p>
+    <p><font face="Times New Roman"><big><strong>Data Management Functions</strong></big></font><br>
+    Matrix has a 1 simple data management function: @CHOOSE </p>
+    <p>@CHOOSE-Selecting an Entry from a List<br>
+    The @CHOOSE function acts like a subscript into a variable array. It allows you to select
+    the contents of any cell with in a range based on the index value you supply.<br>
+    <br>
+    The format of the @CHOOSE function is<br>
+    &nbsp; @CHOOSE(index, range)<br>
+    <br>
+    The index value must be greater than 0 and either equal to or less than the number of
+    cells in the range. For example to choose the 2nd cell in the range B2, C6 the syntax is:<br>
+    @CHOOSE(2, B2, C6) <br>
+    <br>
+    (Notice the range syntax in this function uses the comma instead of the colon.)</p>
+    <p>The contents of cell C2 are returned because the range is 2 columns by 5 rows. If you
+    wanted to choose cell B3 the index value would need to be 3. The formula to determine the
+    location the index value refers to is <br>
+    Column reference is mod(index , (x2 - x1)+1)+x1<br>
+    The row reference is INT(index / ((x2-x1)+1))+y1<br>
+    Where x1, x2 are the column boundaries of the range, and y1 is the top row in the range.<br>
+    <br>
+    The example files &quot;moveable_feasts.mtx&quot; and &quot;calendar.mtx&quot; show how to
+    use this function. Unlock the cells to see the formulas.</p>
+    <p><br>
+    <em><strong>@IF-Creating Conditional Tests</strong></em><br>
+    The @IF function allows you to test one or more conditions in your spreadsheet and perform
+    appropriate tasks based on the outcome of the test. You could, for example, have a
+    worksheet that functions as a job-application data-entry form that you want to make
+    sensitive to the age of the applicant. You could construct a formula using the @IF
+    function that would made certain automatic cells display if the age is less than 21, and
+    other automatic displays if the age is greater than or equal to 21.<br>
+    <br>
+    The basic form of the @IF function is<br>
+    &nbsp; @IF(condition, vtrue, vfalse)<br>
+    <br>
+    where the first argument (condition) is tested for true or false. If the result of the
+    test is true (1), the function will return the value of vtrue. If the condition is false
+    (0) the function will return the vfalse value. The condition itself must be numeric, but
+    the answer returned, either vtrue and vfalse, can be either blank string , a string with
+    something in it or numeric value.<br>
+    </p>
+    <p><strong><em>@Rand--Pseudo Random number generator</em></strong><br>
+    Generates a value between 0 and 1<br>
+    syntax: @RAND()</p>
+    <p>&nbsp;</p>
+    <p><strong><em>@TYPE - Indicate the Type of the cell</em></strong><br>
+    The @TYPE function indicates the type of the cell. It return a -1 if the cell contains an
+    error; 0 if the cell is empty, 1 if the cell contains text, or 2 if it contains either a
+    number or a formula that evaluates to a number. The form of the @TYPE function is:<br>
+    @TERM(cell reference)<br>
+    <br>
+    The example file &quot;Calendar.mtx&quot; shows how to use this function.</p>
+    <p>&nbsp;</p>
+    <p><strong><big>Date Functions </big></strong><br>
+    There are 4 functions that deal with dates.<br>
+    @Easter, @GETDATE, @BIGDAYS, @TODAY. An explanation of Each of these functions follows.<br>
+    <br>
+    <strong><em>@EASTER - Indicate the date of Easter Sunday for any Year</em></strong><br>
+    The @EASTER function indicates the month and the date within that month that Easter Sunday
+    falls on for any given year. The form of the @EASTER function is:<br>
+    @EASTER(cell reference or number)<br>
+    <br>
+    The @EASTER function is given the year whose date you want to find out. For example:
+    @EASTER(2000) will return 23. But @EASTER(1997) will return -30. Easter occurs on the
+    Sunday following the first full moon after the 21 March. <br>
+    A negative date is return if its in March, or a positive date if its in April. <br>
+    <br>
+    The files &quot;Calendar.mtx&quot; and &quot;Moveable_feasts.mtx&quot; give examples of
+    how to use this function.<br>
+    </p>
+    <p><em><strong>@GETDATE - Indicate the Month and the date of a day number of any Year</strong></em><br>
+    This function returns a number which contains coded information concerning the month and
+    the date within that month a given day number between 1 and 365 (or 366 in a leap year) is
+    placed in the calendar for a given year. By itself this function is not much use, but when
+    used with the other date functions it can act as a helper, thereby greatly simplifying the
+    creation of spreadsheets that use dates, such as calendars. The information is decoded
+    like this.<br>
+    A1 = @GETDATE(2000, 33)<br>
+    <br>
+    Month = @Int(A1/ 32)<br>
+    Date = @MOD(A1, 32)<br>
+    <br>
+    The files &quot;Calendar.mtx&quot; and &quot;moveable_feasts.mtx&quot; contain examples of
+    this function.<br>
+    </p>
+    <p><em><strong>@BIGDAYS -- Convert a Date into a Serial Number</strong></em><br>
+    The format of this function is:<br>
+    @BIGDAYS( date, month, year)<br>
+    where year is any year from the start of the Gregorian calendar (in 1582) to 2100. Month
+    is any month from 1 to 12, and date is any date within that month. For example:<br>
+    <br>
+    &nbsp; @BIGDAYS(1, 9, 1939) <br>
+    <br>
+    will return 708083. In order to prevent making a mistake when entering dates notice the
+    date is entered according to the British notation, with the date number coming before the
+    number of the month. For example. The date 1/9/1939 reads the 1st of September 1939 to us
+    British/Irish, but to the Americans it reads January 9th, 1939. When entering dates just
+    remember that the British/Irish notation is used. If you are a programmer you could delve
+    into the source code and change the function so that it would accept dates represented in
+    the American format.<br>
+    <br>
+    This function by itself is not much use, but when used with the other date functions, it
+    can come in very handy. For example, suppose you number the days of the week from 0 to 6,
+    with Sunday representing 0, and Saturday representing 6, then in order to figure out what
+    day the 1st of September 1939 fell on all you have to do is use the @MOD function with the
+    BIGDAYS function like this:<br>
+    <br>
+    &nbsp; day of week = @MOD(@BIGDAYS(1, 9, 1939), 7)<br>
+    <br>
+    The result is 5. This means the 1st of September 1939 occurred on a Friday, and two days
+    later on Sunday the 3rd at 11:15am, Neville Chamberlain, the British Prime Minister,
+    announced over BBC radio that Britain had declared war on Germany.<br>
+    <br>
+    </p>
+    <p><strong><em>@TODAY - Convert today's Date into a Serial Number</em></strong><br>
+    Another handy use from the previous function is when you want to find out how many days
+    old you are. The @TODAY function returns a serial number which can be used for this
+    purpose. <br>
+    <br>
+    Days past = @TODAY() - BIGDAYS(6, 4, 1975) <br>
+    The result returned is 9076 but this figure will be incremented by one each day. In this
+    example Today is 10 February, 2000. Therefore we just subtract the serial version of today
+    from the serial version of the date in the past and the result is the number of days that
+    have elapsed. This function can be useful for those interested in biorhythmic cycles. <br>
+    </p>
+    <p><strong><big>String handling functions </big></strong><br>
+    The string functions Matrix supports are @STR, @STRCMP, @STRCAT, and @STRCAT1<br>
+    <br>
+    <br>
+    <strong><em>@STR(13.6, 2,1)--Convert a number to a string. </em></strong><br>
+    The first parameter is the number, the second parameter is the number of<br>
+    decimal places, the third parameter is 1 if you want the number in<br>
+    commas, or 0 if not.</p>
+    <p><em><strong><br>
+    @STRCAT(a1, a2)--Joins two strings together with a space between them.</strong></em><br>
+    This function joins two string together but it places a space between them. For example:<br>
+    &nbsp; @STRCAT('James', 'Bond')<br>
+    return the string &quot;James Bond&quot;. But if you want to join strings without placing
+    a <br>
+    space between them use the next function.<br>
+    </p>
+    <p><strong><em>@STRCAT1(a1, a2)--Joins two strings together without a space between them.</em></strong><br>
+    This function joins two string together but does not place a space between them. For
+    example:<br>
+    &nbsp; @STRCAT1('James', 'Bond')<br>
+    return the string &quot;JamesBond&quot;. <br>
+    </p>
+    <p><em><strong>@STRCMP(a1, a2)--Compare two strings </strong></em><br>
+    This function compares two strings against each other. If string A1 is equal to string A2
+    the function return 0, if A1 is smaller the function returns -1, else it return 1.<br>
+    </p>
+    <p align="center"><br>
+    <strong>List of Functions Matrix version 1.5 supports</strong></p>
+    <div align="center"><center><table border="0" width="76%">
+      <tr>
+        <td width="6%">1</td>
+        <td width="40%">ABS</td>
+        <td width="7%">16</td>
+        <td width="43%">STR</td>
+        <td width="7%">31</td>
+        <td width="30%">MIN</td>
+      </tr>
+      <tr>
+        <td width="6%">2</td>
+        <td width="40%">ACOS</td>
+        <td width="7%">17</td>
+        <td width="43%">STRCAT</td>
+        <td width="7%">32</td>
+        <td width="30%">MAX</td>
+      </tr>
+      <tr>
+        <td width="6%">3</td>
+        <td width="40%">IF</td>
+        <td width="7%">18</td>
+        <td width="43%">STRCMP</td>
+        <td width="7%">33</td>
+        <td width="30%">AVG</td>
+      </tr>
+      <tr>
+        <td width="6%">4</td>
+        <td width="40%">PMTC</td>
+        <td width="7%">19</td>
+        <td width="43%">BIGDAYS</td>
+        <td width="7%">34</td>
+        <td width="30%">DDB</td>
+      </tr>
+      <tr>
+        <td width="6%">5</td>
+        <td width="40%">SUM</td>
+        <td width="7%">20</td>
+        <td width="43%">TODAY</td>
+        <td width="7%">35</td>
+        <td width="30%">SLN</td>
+      </tr>
+      <tr>
+        <td width="6%">6</td>
+        <td width="40%">CHOOSE</td>
+        <td width="7%">21</td>
+        <td width="43%">EASTER</td>
+        <td width="7%">36</td>
+        <td width="30%">SYD</td>
+      </tr>
+      <tr>
+        <td width="6%">7</td>
+        <td width="40%">IRATE</td>
+        <td width="7%">22</td>
+        <td width="43%">GETDATE</td>
+        <td width="7%">37</td>
+        <td width="30%">SQRT</td>
+      </tr>
+      <tr>
+        <td width="6%">8</td>
+        <td width="40%">TYPE</td>
+        <td width="7%">23</td>
+        <td width="43%">INT</td>
+        <td width="7%">38</td>
+        <td width="30%">VAR</td>
+      </tr>
+      <tr>
+        <td width="6%">9</td>
+        <td width="40%">EFF</td>
+        <td width="7%">24</td>
+        <td width="43%">NPV</td>
+        <td width="7%">39</td>
+        <td width="30%">STD</td>
+      </tr>
+      <tr>
+        <td width="6%">10</td>
+        <td width="40%">COS</td>
+        <td width="7%">25</td>
+        <td width="43%">IRR</td>
+        <td width="7%">40</td>
+        <td width="30%">RATE</td>
+      </tr>
+      <tr>
+        <td width="6%">11</td>
+        <td width="40%">SIN</td>
+        <td width="7%">26</td>
+        <td width="43%">PV</td>
+        <td width="7%">41</td>
+        <td width="30%">ROUND</td>
+      </tr>
+      <tr>
+        <td width="6%">12</td>
+        <td width="40%">TAN</td>
+        <td width="7%">27</td>
+        <td width="43%">FV</td>
+        <td width="7%">42</td>
+        <td width="30%">RAND</td>
+      </tr>
+      <tr>
+        <td width="6%">13</td>
+        <td width="40%">LN</td>
+        <td width="7%">28</td>
+        <td width="43%">TERM</td>
+        <td width="7%">43</td>
+        <td width="30%">STRCAT1</td>
+      </tr>
+      <tr>
+        <td width="6%">14</td>
+        <td width="40%">LOG</td>
+        <td width="7%">29</td>
+        <td width="43%">CTERM</td>
+        <td width="7%">44</td>
+        <td width="30%">PI</td>
+      </tr>
+      <tr>
+        <td width="6%">15</td>
+        <td width="40%">EXP</td>
+        <td width="7%">30</td>
+        <td width="43%">COUNT</td>
+        <td width="7%">45</td>
+        <td width="30%">MOD</td>
+      </tr>
+      <tr>
+        <td width="6%"></td>
+        <td width="40%"></td>
+        <td width="7%"></td>
+        <td width="43%"></td>
+        <td width="7%">46</td>
+        <td width="30%">NOM</td>
+      </tr>
+    </table>
+    </center></div><p><br>
+    <strong><big>Associating &quot;.mtx&quot; files with Matrix.</big></strong><br>
+    If you want Matrix to start up automatically when you click on a Matrix data file from the
+    desktop or in a folder then you need to associate files of type &quot;.mtx&quot; with the
+    Matrix.exe. Go to the run dialogue box and enter winfile.exe. File manager will start up.
+    Then under the &quot;File&quot; menu scroll down until you come to the sub-menu option
+    &quot;Associate...&quot; and select it. Enter .mtx in the &quot;Files with extension&quot;
+    box, then click on the &quot;browse&quot; button and locate the path where matrix was
+    stored. You may find it at <br>
+    c:\windows\temp\matrix1.matrix.exe <br>
+    if not try the path <br>
+    <a href="file:///c:/windows/desktop/matrix/matrix.exe">c:\windows\desktop\matrix\matrix.exe</a>
+    <br>
+    <br>
+    When you find it click on it File manager will associate files ending in &quot;.mtx&quot;
+    with Matrix. What happens is that an entry like this is written into the win.ini file
+    (located in the c:\windows directory ) under the &quot;extensions&quot; heading:<br>
+    MTX=C:\windows\temp\matrix1\matrix.exe ^.MTX</p>
+    <hr size="1">
+    </td>
+  </tr>
+</table>
+
+<p align="center"><font face="Tahoma"><small><small>© Michael Finnegan</small></small><br>
+<small><small>Grove Business Software<br>
+Dingle, Co. Kerry, Ireland</small></small></font></p>
+</body>
+</html>

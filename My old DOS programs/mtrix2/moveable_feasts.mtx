@@ -1,0 +1,454 @@
+Matrix spreadsheet v2.0
+1612
+HAAEHDIEJEFEFKKKKKKKKKKKKK
+HAHA
+386
+A2=year ->
+D2=1975
+G2=Table of moveable feasts
+B4=Leap
+C4=Easter
+D4=Ash Wed
+F4=Easter
+H4=Ascen Thu
+J4=Pentecost
+M4=Corpus Christi
+A5=D2
+B5=@if(@mod(A5,4)=0, @if(@mod(A5,100)=0,@if(@mod(A5,400)=0,1,0),1),0)
+C5=@if(@easter(A5)<0, @abs(@easter(A5))+59+B5, @easter(A5)+90+B5)
+D5=@mod(@getdate(A5, C5-46),32)
+E5=@choose(@int(@getdate(A5, C5-46)/32), A$51, A$62)
+F5=@mod(@getdate(A5, C5),32)
+G5=@choose(@int(@getdate(A5, C5)/32), A$51, A$62)
+H5=@mod(@getdate(A5, C5+39),32)
+I5=@choose(@int(@getdate(A5, C5+39)/32), A$51, A$62)
+J5=@mod(@getdate(A5, C5+49),32)
+K5=@choose(@int(@getdate(A5, C5+49)/32), A$51, A$62)
+M5=@mod(@getdate(A5, C5+60),32)
+N5=@choose(@int(@getdate(A5, C5+60)/32), A$51, A$62)
+A6=A5+1
+B6=@if(@mod(A6,4)=0, @if(@mod(A6,100)=0,@if(@mod(A6,400)=0,1,0),1),0)
+C6=@if(@easter(A6)<0, @abs(@easter(A6))+59+B6, @easter(A6)+90+B6)
+D6=@mod(@getdate(A6, C6-46),32)
+E6=@choose(@int(@getdate(A6, C6-46)/32), A$51, A$62)
+F6=@mod(@getdate(A6, C6),32)
+G6=@choose(@int(@getdate(A6, C6)/32), A$51, A$62)
+H6=@mod(@getdate(A6, C6+39),32)
+I6=@choose(@int(@getdate(A6, C6+39)/32), A$51, A$62)
+J6=@mod(@getdate(A6, C6+49),32)
+K6=@choose(@int(@getdate(A6, C6+49)/32), A$51, A$62)
+M6=@mod(@getdate(A6, C6+60),32)
+N6=@choose(@int(@getdate(A6, C6+60)/32), A$51, A$62)
+A7=A6+1
+B7=@if(@mod(A7,4)=0, @if(@mod(A7,100)=0,@if(@mod(A7,400)=0,1,0),1),0)
+C7=@if(@easter(A7)<0, @abs(@easter(A7))+59+B7, @easter(A7)+90+B7)
+D7=@mod(@getdate(A7, C7-46),32)
+E7=@choose(@int(@getdate(A7, C7-46)/32), A$51, A$62)
+F7=@mod(@getdate(A7, C7),32)
+G7=@choose(@int(@getdate(A7, C7)/32), A$51, A$62)
+H7=@mod(@getdate(A7, C7+39),32)
+I7=@choose(@int(@getdate(A7, C7+39)/32), A$51, A$62)
+J7=@mod(@getdate(A7, C7+49),32)
+K7=@choose(@int(@getdate(A7, C7+49)/32), A$51, A$62)
+M7=@mod(@getdate(A7, C7+60),32)
+N7=@choose(@int(@getdate(A7, C7+60)/32), A$51, A$62)
+A8=A7+1
+B8=@if(@mod(A8,4)=0, @if(@mod(A8,100)=0,@if(@mod(A8,400)=0,1,0),1),0)
+C8=@if(@easter(A8)<0, @abs(@easter(A8))+59+B8, @easter(A8)+90+B8)
+D8=@mod(@getdate(A8, C8-46),32)
+E8=@choose(@int(@getdate(A8, C8-46)/32), A$51, A$62)
+F8=@mod(@getdate(A8, C8),32)
+G8=@choose(@int(@getdate(A8, C8)/32), A$51, A$62)
+H8=@mod(@getdate(A8, C8+39),32)
+I8=@choose(@int(@getdate(A8, C8+39)/32), A$51, A$62)
+J8=@mod(@getdate(A8, C8+49),32)
+K8=@choose(@int(@getdate(A8, C8+49)/32), A$51, A$62)
+M8=@mod(@getdate(A8, C8+60),32)
+N8=@choose(@int(@getdate(A8, C8+60)/32), A$51, A$62)
+A9=A8+1
+B9=@if(@mod(A9,4)=0, @if(@mod(A9,100)=0,@if(@mod(A9,400)=0,1,0),1),0)
+C9=@if(@easter(A9)<0, @abs(@easter(A9))+59+B9, @easter(A9)+90+B9)
+D9=@mod(@getdate(A9, C9-46),32)
+E9=@choose(@int(@getdate(A9, C9-46)/32), A$51, A$62)
+F9=@mod(@getdate(A9, C9),32)
+G9=@choose(@int(@getdate(A9, C9)/32), A$51, A$62)
+H9=@mod(@getdate(A9, C9+39),32)
+I9=@choose(@int(@getdate(A9, C9+39)/32), A$51, A$62)
+J9=@mod(@getdate(A9, C9+49),32)
+K9=@choose(@int(@getdate(A9, C9+49)/32), A$51, A$62)
+M9=@mod(@getdate(A9, C9+60),32)
+N9=@choose(@int(@getdate(A9, C9+60)/32), A$51, A$62)
+A10=A9+1
+B10=@if(@mod(A10,4)=0, @if(@mod(A10,100)=0,@if(@mod(A10,400)=0,1,0),1),0)
+C10=@if(@easter(A10)<0, @abs(@easter(A10))+59+B10, @easter(A10)+90+B10)
+D10=@mod(@getdate(A10, C10-46),32)
+E10=@choose(@int(@getdate(A10, C10-46)/32), A$51, A$62)
+F10=@mod(@getdate(A10, C10),32)
+G10=@choose(@int(@getdate(A10, C10)/32), A$51, A$62)
+H10=@mod(@getdate(A10, C10+39),32)
+I10=@choose(@int(@getdate(A10, C10+39)/32), A$51, A$62)
+J10=@mod(@getdate(A10, C10+49),32)
+K10=@choose(@int(@getdate(A10, C10+49)/32), A$51, A$62)
+M10=@mod(@getdate(A10, C10+60),32)
+N10=@choose(@int(@getdate(A10, C10+60)/32), A$51, A$62)
+A11=A10+1
+B11=@if(@mod(A11,4)=0, @if(@mod(A11,100)=0,@if(@mod(A11,400)=0,1,0),1),0)
+C11=@if(@easter(A11)<0, @abs(@easter(A11))+59+B11, @easter(A11)+90+B11)
+D11=@mod(@getdate(A11, C11-46),32)
+E11=@choose(@int(@getdate(A11, C11-46)/32), A$51, A$62)
+F11=@mod(@getdate(A11, C11),32)
+G11=@choose(@int(@getdate(A11, C11)/32), A$51, A$62)
+H11=@mod(@getdate(A11, C11+39),32)
+I11=@choose(@int(@getdate(A11, C11+39)/32), A$51, A$62)
+J11=@mod(@getdate(A11, C11+49),32)
+K11=@choose(@int(@getdate(A11, C11+49)/32), A$51, A$62)
+M11=@mod(@getdate(A11, C11+60),32)
+N11=@choose(@int(@getdate(A11, C11+60)/32), A$51, A$62)
+A12=A11+1
+B12=@if(@mod(A12,4)=0, @if(@mod(A12,100)=0,@if(@mod(A12,400)=0,1,0),1),0)
+C12=@if(@easter(A12)<0, @abs(@easter(A12))+59+B12, @easter(A12)+90+B12)
+D12=@mod(@getdate(A12, C12-46),32)
+E12=@choose(@int(@getdate(A12, C12-46)/32), A$51, A$62)
+F12=@mod(@getdate(A12, C12),32)
+G12=@choose(@int(@getdate(A12, C12)/32), A$51, A$62)
+H12=@mod(@getdate(A12, C12+39),32)
+I12=@choose(@int(@getdate(A12, C12+39)/32), A$51, A$62)
+J12=@mod(@getdate(A12, C12+49),32)
+K12=@choose(@int(@getdate(A12, C12+49)/32), A$51, A$62)
+M12=@mod(@getdate(A12, C12+60),32)
+N12=@choose(@int(@getdate(A12, C12+60)/32), A$51, A$62)
+A13=A12+1
+B13=@if(@mod(A13,4)=0, @if(@mod(A13,100)=0,@if(@mod(A13,400)=0,1,0),1),0)
+C13=@if(@easter(A13)<0, @abs(@easter(A13))+59+B13, @easter(A13)+90+B13)
+D13=@mod(@getdate(A13, C13-46),32)
+E13=@choose(@int(@getdate(A13, C13-46)/32), A$51, A$62)
+F13=@mod(@getdate(A13, C13),32)
+G13=@choose(@int(@getdate(A13, C13)/32), A$51, A$62)
+H13=@mod(@getdate(A13, C13+39),32)
+I13=@choose(@int(@getdate(A13, C13+39)/32), A$51, A$62)
+J13=@mod(@getdate(A13, C13+49),32)
+K13=@choose(@int(@getdate(A13, C13+49)/32), A$51, A$62)
+M13=@mod(@getdate(A13, C13+60),32)
+N13=@choose(@int(@getdate(A13, C13+60)/32), A$51, A$62)
+A14=A13+1
+B14=@if(@mod(A14,4)=0, @if(@mod(A14,100)=0,@if(@mod(A14,400)=0,1,0),1),0)
+C14=@if(@easter(A14)<0, @abs(@easter(A14))+59+B14, @easter(A14)+90+B14)
+D14=@mod(@getdate(A14, C14-46),32)
+E14=@choose(@int(@getdate(A14, C14-46)/32), A$51, A$62)
+F14=@mod(@getdate(A14, C14),32)
+G14=@choose(@int(@getdate(A14, C14)/32), A$51, A$62)
+H14=@mod(@getdate(A14, C14+39),32)
+I14=@choose(@int(@getdate(A14, C14+39)/32), A$51, A$62)
+J14=@mod(@getdate(A14, C14+49),32)
+K14=@choose(@int(@getdate(A14, C14+49)/32), A$51, A$62)
+M14=@mod(@getdate(A14, C14+60),32)
+N14=@choose(@int(@getdate(A14, C14+60)/32), A$51, A$62)
+A15=A14+1
+B15=@if(@mod(A15,4)=0, @if(@mod(A15,100)=0,@if(@mod(A15,400)=0,1,0),1),0)
+C15=@if(@easter(A15)<0, @abs(@easter(A15))+59+B15, @easter(A15)+90+B15)
+D15=@mod(@getdate(A15, C15-46),32)
+E15=@choose(@int(@getdate(A15, C15-46)/32), A$51, A$62)
+F15=@mod(@getdate(A15, C15),32)
+G15=@choose(@int(@getdate(A15, C15)/32), A$51, A$62)
+H15=@mod(@getdate(A15, C15+39),32)
+I15=@choose(@int(@getdate(A15, C15+39)/32), A$51, A$62)
+J15=@mod(@getdate(A15, C15+49),32)
+K15=@choose(@int(@getdate(A15, C15+49)/32), A$51, A$62)
+M15=@mod(@getdate(A15, C15+60),32)
+N15=@choose(@int(@getdate(A15, C15+60)/32), A$51, A$62)
+A16=A15+1
+B16=@if(@mod(A16,4)=0, @if(@mod(A16,100)=0,@if(@mod(A16,400)=0,1,0),1),0)
+C16=@if(@easter(A16)<0, @abs(@easter(A16))+59+B16, @easter(A16)+90+B16)
+D16=@mod(@getdate(A16, C16-46),32)
+E16=@choose(@int(@getdate(A16, C16-46)/32), A$51, A$62)
+F16=@mod(@getdate(A16, C16),32)
+G16=@choose(@int(@getdate(A16, C16)/32), A$51, A$62)
+H16=@mod(@getdate(A16, C16+39),32)
+I16=@choose(@int(@getdate(A16, C16+39)/32), A$51, A$62)
+J16=@mod(@getdate(A16, C16+49),32)
+K16=@choose(@int(@getdate(A16, C16+49)/32), A$51, A$62)
+M16=@mod(@getdate(A16, C16+60),32)
+N16=@choose(@int(@getdate(A16, C16+60)/32), A$51, A$62)
+A17=A16+1
+B17=@if(@mod(A17,4)=0, @if(@mod(A17,100)=0,@if(@mod(A17,400)=0,1,0),1),0)
+C17=@if(@easter(A17)<0, @abs(@easter(A17))+59+B17, @easter(A17)+90+B17)
+D17=@mod(@getdate(A17, C17-46),32)
+E17=@choose(@int(@getdate(A17, C17-46)/32), A$51, A$62)
+F17=@mod(@getdate(A17, C17),32)
+G17=@choose(@int(@getdate(A17, C17)/32), A$51, A$62)
+H17=@mod(@getdate(A17, C17+39),32)
+I17=@choose(@int(@getdate(A17, C17+39)/32), A$51, A$62)
+J17=@mod(@getdate(A17, C17+49),32)
+K17=@choose(@int(@getdate(A17, C17+49)/32), A$51, A$62)
+M17=@mod(@getdate(A17, C17+60),32)
+N17=@choose(@int(@getdate(A17, C17+60)/32), A$51, A$62)
+A18=A17+1
+B18=@if(@mod(A18,4)=0, @if(@mod(A18,100)=0,@if(@mod(A18,400)=0,1,0),1),0)
+C18=@if(@easter(A18)<0, @abs(@easter(A18))+59+B18, @easter(A18)+90+B18)
+D18=@mod(@getdate(A18, C18-46),32)
+E18=@choose(@int(@getdate(A18, C18-46)/32), A$51, A$62)
+F18=@mod(@getdate(A18, C18),32)
+G18=@choose(@int(@getdate(A18, C18)/32), A$51, A$62)
+H18=@mod(@getdate(A18, C18+39),32)
+I18=@choose(@int(@getdate(A18, C18+39)/32), A$51, A$62)
+J18=@mod(@getdate(A18, C18+49),32)
+K18=@choose(@int(@getdate(A18, C18+49)/32), A$51, A$62)
+M18=@mod(@getdate(A18, C18+60),32)
+N18=@choose(@int(@getdate(A18, C18+60)/32), A$51, A$62)
+A19=A18+1
+B19=@if(@mod(A19,4)=0, @if(@mod(A19,100)=0,@if(@mod(A19,400)=0,1,0),1),0)
+C19=@if(@easter(A19)<0, @abs(@easter(A19))+59+B19, @easter(A19)+90+B19)
+D19=@mod(@getdate(A19, C19-46),32)
+E19=@choose(@int(@getdate(A19, C19-46)/32), A$51, A$62)
+F19=@mod(@getdate(A19, C19),32)
+G19=@choose(@int(@getdate(A19, C19)/32), A$51, A$62)
+H19=@mod(@getdate(A19, C19+39),32)
+I19=@choose(@int(@getdate(A19, C19+39)/32), A$51, A$62)
+J19=@mod(@getdate(A19, C19+49),32)
+K19=@choose(@int(@getdate(A19, C19+49)/32), A$51, A$62)
+M19=@mod(@getdate(A19, C19+60),32)
+N19=@choose(@int(@getdate(A19, C19+60)/32), A$51, A$62)
+A20=A19+1
+B20=@if(@mod(A20,4)=0, @if(@mod(A20,100)=0,@if(@mod(A20,400)=0,1,0),1),0)
+C20=@if(@easter(A20)<0, @abs(@easter(A20))+59+B20, @easter(A20)+90+B20)
+D20=@mod(@getdate(A20, C20-46),32)
+E20=@choose(@int(@getdate(A20, C20-46)/32), A$51, A$62)
+F20=@mod(@getdate(A20, C20),32)
+G20=@choose(@int(@getdate(A20, C20)/32), A$51, A$62)
+H20=@mod(@getdate(A20, C20+39),32)
+I20=@choose(@int(@getdate(A20, C20+39)/32), A$51, A$62)
+J20=@mod(@getdate(A20, C20+49),32)
+K20=@choose(@int(@getdate(A20, C20+49)/32), A$51, A$62)
+M20=@mod(@getdate(A20, C20+60),32)
+N20=@choose(@int(@getdate(A20, C20+60)/32), A$51, A$62)
+A21=A20+1
+B21=@if(@mod(A21,4)=0, @if(@mod(A21,100)=0,@if(@mod(A21,400)=0,1,0),1),0)
+C21=@if(@easter(A21)<0, @abs(@easter(A21))+59+B21, @easter(A21)+90+B21)
+D21=@mod(@getdate(A21, C21-46),32)
+E21=@choose(@int(@getdate(A21, C21-46)/32), A$51, A$62)
+F21=@mod(@getdate(A21, C21),32)
+G21=@choose(@int(@getdate(A21, C21)/32), A$51, A$62)
+H21=@mod(@getdate(A21, C21+39),32)
+I21=@choose(@int(@getdate(A21, C21+39)/32), A$51, A$62)
+J21=@mod(@getdate(A21, C21+49),32)
+K21=@choose(@int(@getdate(A21, C21+49)/32), A$51, A$62)
+M21=@mod(@getdate(A21, C21+60),32)
+N21=@choose(@int(@getdate(A21, C21+60)/32), A$51, A$62)
+A22=A21+1
+B22=@if(@mod(A22,4)=0, @if(@mod(A22,100)=0,@if(@mod(A22,400)=0,1,0),1),0)
+C22=@if(@easter(A22)<0, @abs(@easter(A22))+59+B22, @easter(A22)+90+B22)
+D22=@mod(@getdate(A22, C22-46),32)
+E22=@choose(@int(@getdate(A22, C22-46)/32), A$51, A$62)
+F22=@mod(@getdate(A22, C22),32)
+G22=@choose(@int(@getdate(A22, C22)/32), A$51, A$62)
+H22=@mod(@getdate(A22, C22+39),32)
+I22=@choose(@int(@getdate(A22, C22+39)/32), A$51, A$62)
+J22=@mod(@getdate(A22, C22+49),32)
+K22=@choose(@int(@getdate(A22, C22+49)/32), A$51, A$62)
+M22=@mod(@getdate(A22, C22+60),32)
+N22=@choose(@int(@getdate(A22, C22+60)/32), A$51, A$62)
+A23=A22+1
+B23=@if(@mod(A23,4)=0, @if(@mod(A23,100)=0,@if(@mod(A23,400)=0,1,0),1),0)
+C23=@if(@easter(A23)<0, @abs(@easter(A23))+59+B23, @easter(A23)+90+B23)
+D23=@mod(@getdate(A23, C23-46),32)
+E23=@choose(@int(@getdate(A23, C23-46)/32), A$51, A$62)
+F23=@mod(@getdate(A23, C23),32)
+G23=@choose(@int(@getdate(A23, C23)/32), A$51, A$62)
+H23=@mod(@getdate(A23, C23+39),32)
+I23=@choose(@int(@getdate(A23, C23+39)/32), A$51, A$62)
+J23=@mod(@getdate(A23, C23+49),32)
+K23=@choose(@int(@getdate(A23, C23+49)/32), A$51, A$62)
+M23=@mod(@getdate(A23, C23+60),32)
+N23=@choose(@int(@getdate(A23, C23+60)/32), A$51, A$62)
+A24=A23+1
+B24=@if(@mod(A24,4)=0, @if(@mod(A24,100)=0,@if(@mod(A24,400)=0,1,0),1),0)
+C24=@if(@easter(A24)<0, @abs(@easter(A24))+59+B24, @easter(A24)+90+B24)
+D24=@mod(@getdate(A24, C24-46),32)
+E24=@choose(@int(@getdate(A24, C24-46)/32), A$51, A$62)
+F24=@mod(@getdate(A24, C24),32)
+G24=@choose(@int(@getdate(A24, C24)/32), A$51, A$62)
+H24=@mod(@getdate(A24, C24+39),32)
+I24=@choose(@int(@getdate(A24, C24+39)/32), A$51, A$62)
+J24=@mod(@getdate(A24, C24+49),32)
+K24=@choose(@int(@getdate(A24, C24+49)/32), A$51, A$62)
+M24=@mod(@getdate(A24, C24+60),32)
+N24=@choose(@int(@getdate(A24, C24+60)/32), A$51, A$62)
+A25=A24+1
+B25=@if(@mod(A25,4)=0, @if(@mod(A25,100)=0,@if(@mod(A25,400)=0,1,0),1),0)
+C25=@if(@easter(A25)<0, @abs(@easter(A25))+59+B25, @easter(A25)+90+B25)
+D25=@mod(@getdate(A25, C25-46),32)
+E25=@choose(@int(@getdate(A25, C25-46)/32), A$51, A$62)
+F25=@mod(@getdate(A25, C25),32)
+G25=@choose(@int(@getdate(A25, C25)/32), A$51, A$62)
+H25=@mod(@getdate(A25, C25+39),32)
+I25=@choose(@int(@getdate(A25, C25+39)/32), A$51, A$62)
+J25=@mod(@getdate(A25, C25+49),32)
+K25=@choose(@int(@getdate(A25, C25+49)/32), A$51, A$62)
+M25=@mod(@getdate(A25, C25+60),32)
+N25=@choose(@int(@getdate(A25, C25+60)/32), A$51, A$62)
+A26=A25+1
+B26=@if(@mod(A26,4)=0, @if(@mod(A26,100)=0,@if(@mod(A26,400)=0,1,0),1),0)
+C26=@if(@easter(A26)<0, @abs(@easter(A26))+59+B26, @easter(A26)+90+B26)
+D26=@mod(@getdate(A26, C26-46),32)
+E26=@choose(@int(@getdate(A26, C26-46)/32), A$51, A$62)
+F26=@mod(@getdate(A26, C26),32)
+G26=@choose(@int(@getdate(A26, C26)/32), A$51, A$62)
+H26=@mod(@getdate(A26, C26+39),32)
+I26=@choose(@int(@getdate(A26, C26+39)/32), A$51, A$62)
+J26=@mod(@getdate(A26, C26+49),32)
+K26=@choose(@int(@getdate(A26, C26+49)/32), A$51, A$62)
+M26=@mod(@getdate(A26, C26+60),32)
+N26=@choose(@int(@getdate(A26, C26+60)/32), A$51, A$62)
+A27=A26+1
+B27=@if(@mod(A27,4)=0, @if(@mod(A27,100)=0,@if(@mod(A27,400)=0,1,0),1),0)
+C27=@if(@easter(A27)<0, @abs(@easter(A27))+59+B27, @easter(A27)+90+B27)
+D27=@mod(@getdate(A27, C27-46),32)
+E27=@choose(@int(@getdate(A27, C27-46)/32), A$51, A$62)
+F27=@mod(@getdate(A27, C27),32)
+G27=@choose(@int(@getdate(A27, C27)/32), A$51, A$62)
+H27=@mod(@getdate(A27, C27+39),32)
+I27=@choose(@int(@getdate(A27, C27+39)/32), A$51, A$62)
+J27=@mod(@getdate(A27, C27+49),32)
+K27=@choose(@int(@getdate(A27, C27+49)/32), A$51, A$62)
+M27=@mod(@getdate(A27, C27+60),32)
+N27=@choose(@int(@getdate(A27, C27+60)/32), A$51, A$62)
+A28=A27+1
+B28=@if(@mod(A28,4)=0, @if(@mod(A28,100)=0,@if(@mod(A28,400)=0,1,0),1),0)
+C28=@if(@easter(A28)<0, @abs(@easter(A28))+59+B28, @easter(A28)+90+B28)
+D28=@mod(@getdate(A28, C28-46),32)
+E28=@choose(@int(@getdate(A28, C28-46)/32), A$51, A$62)
+F28=@mod(@getdate(A28, C28),32)
+G28=@choose(@int(@getdate(A28, C28)/32), A$51, A$62)
+H28=@mod(@getdate(A28, C28+39),32)
+I28=@choose(@int(@getdate(A28, C28+39)/32), A$51, A$62)
+J28=@mod(@getdate(A28, C28+49),32)
+K28=@choose(@int(@getdate(A28, C28+49)/32), A$51, A$62)
+M28=@mod(@getdate(A28, C28+60),32)
+N28=@choose(@int(@getdate(A28, C28+60)/32), A$51, A$62)
+A29=A28+1
+B29=@if(@mod(A29,4)=0, @if(@mod(A29,100)=0,@if(@mod(A29,400)=0,1,0),1),0)
+C29=@if(@easter(A29)<0, @abs(@easter(A29))+59+B29, @easter(A29)+90+B29)
+D29=@mod(@getdate(A29, C29-46),32)
+E29=@choose(@int(@getdate(A29, C29-46)/32), A$51, A$62)
+F29=@mod(@getdate(A29, C29),32)
+G29=@choose(@int(@getdate(A29, C29)/32), A$51, A$62)
+H29=@mod(@getdate(A29, C29+39),32)
+I29=@choose(@int(@getdate(A29, C29+39)/32), A$51, A$62)
+J29=@mod(@getdate(A29, C29+49),32)
+K29=@choose(@int(@getdate(A29, C29+49)/32), A$51, A$62)
+M29=@mod(@getdate(A29, C29+60),32)
+N29=@choose(@int(@getdate(A29, C29+60)/32), A$51, A$62)
+A30=A29+1
+B30=@if(@mod(A30,4)=0, @if(@mod(A30,100)=0,@if(@mod(A30,400)=0,1,0),1),0)
+C30=@if(@easter(A30)<0, @abs(@easter(A30))+59+B30, @easter(A30)+90+B30)
+D30=@mod(@getdate(A30, C30-46),32)
+E30=@choose(@int(@getdate(A30, C30-46)/32), A$51, A$62)
+F30=@mod(@getdate(A30, C30),32)
+G30=@choose(@int(@getdate(A30, C30)/32), A$51, A$62)
+H30=@mod(@getdate(A30, C30+39),32)
+I30=@choose(@int(@getdate(A30, C30+39)/32), A$51, A$62)
+J30=@mod(@getdate(A30, C30+49),32)
+K30=@choose(@int(@getdate(A30, C30+49)/32), A$51, A$62)
+M30=@mod(@getdate(A30, C30+60),32)
+N30=@choose(@int(@getdate(A30, C30+60)/32), A$51, A$62)
+A31=A30+1
+B31=@if(@mod(A31,4)=0, @if(@mod(A31,100)=0,@if(@mod(A31,400)=0,1,0),1),0)
+C31=@if(@easter(A31)<0, @abs(@easter(A31))+59+B31, @easter(A31)+90+B31)
+D31=@mod(@getdate(A31, C31-46),32)
+E31=@choose(@int(@getdate(A31, C31-46)/32), A$51, A$62)
+F31=@mod(@getdate(A31, C31),32)
+G31=@choose(@int(@getdate(A31, C31)/32), A$51, A$62)
+H31=@mod(@getdate(A31, C31+39),32)
+I31=@choose(@int(@getdate(A31, C31+39)/32), A$51, A$62)
+J31=@mod(@getdate(A31, C31+49),32)
+K31=@choose(@int(@getdate(A31, C31+49)/32), A$51, A$62)
+M31=@mod(@getdate(A31, C31+60),32)
+N31=@choose(@int(@getdate(A31, C31+60)/32), A$51, A$62)
+A32=A31+1
+B32=@if(@mod(A32,4)=0, @if(@mod(A32,100)=0,@if(@mod(A32,400)=0,1,0),1),0)
+C32=@if(@easter(A32)<0, @abs(@easter(A32))+59+B32, @easter(A32)+90+B32)
+D32=@mod(@getdate(A32, C32-46),32)
+E32=@choose(@int(@getdate(A32, C32-46)/32), A$51, A$62)
+F32=@mod(@getdate(A32, C32),32)
+G32=@choose(@int(@getdate(A32, C32)/32), A$51, A$62)
+H32=@mod(@getdate(A32, C32+39),32)
+I32=@choose(@int(@getdate(A32, C32+39)/32), A$51, A$62)
+J32=@mod(@getdate(A32, C32+49),32)
+K32=@choose(@int(@getdate(A32, C32+49)/32), A$51, A$62)
+M32=@mod(@getdate(A32, C32+60),32)
+N32=@choose(@int(@getdate(A32, C32+60)/32), A$51, A$62)
+A51=Jan
+A52=Feb
+A53=Mar
+A54=Apr
+A55=May
+A56=Jun
+A57=Jul
+A58=Aug
+A59=Sep
+A60=Oct
+A61=Nov
+A62=Dec
+Properties
+€11€€€€€€€€€€€€qqqqqqqqqqq
+q!qqñqq    qqqqqqqqqqqqqqqq
+€11€€€€€€€€€€€€qqqqqqqqqqq
+qq!q!áƒááƒááƒááƒáááƒá€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•€qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•qqqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•1qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•qqqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•1qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•qqqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•1qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•qqqqqqqqqqqq
+à¡1!1!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•1qqqqqqqqqqq
+à¡q!q!¡¡¡•¡¡¡•¡¡¡•¡¡¡•¡¡¡¡•qqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111111111111111qqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq
+411111111111111qqqqqqqqqqq
+xqqqqqqqqqqqqqqqqqqqqqqqqq

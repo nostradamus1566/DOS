@@ -1,0 +1,52 @@
+Matrix spreadsheet v2.0
+520
+KEHKKKKKKKKKKKKKKKKKKKKKKK
+HAHA
+26
+C1='      Example 5
+C2='      ---------
+A3=' Patricia O'Leary wishes to borrow œ30,000 from the EasyLoan Building
+A4=' Society. Patricia asked us to produce a spreadsheet showing the monthly
+A5=' repaments over the twenty-five year term of the loan for four different
+A6=' interest rates (7%, 8%, 9% and 10%). Our completed spreadsheet is now
+A7=' shown:
+B9='          Mortgage Repayments
+B11=Years =
+E11=25
+B12=Months =
+E12=E11*12
+B13=Loan =
+E13=30000
+B15=Interest
+E15=Monthly
+B16=' Rate
+E16=Repayment
+B17=7%
+E17=@pmtc(E$13, B17, E$12,12)
+B18=8%
+E18=@pmtc(E$13, B18, E$12,12)
+B19=9%
+E19=@pmtc(E$13, B19, E$12,12)
+B20=10%
+E20=@pmtc(E$13, B20, E$12,12)
+Properties
+qqqƒqqqqqqqqqqqqqqqqqqqqqqq
+qqqƒqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qƒqqqqqqqqqqqqqqqqqqqqqqqqq
+qƒqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qƒqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqAqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qq#qqq#qqqqqqqqqqqqqqqqqqqqq
+qq#qqq#qqqqqqqqqqqqqqqqqqqqq
+qq1qqq#qqqqqqqqqqqqqqqqqqqqq
+qq1qqq#qqqqqqqqqqqqqqqqqqqqq
+qq1qqq#qqqqqqqqqqqqqqqqqqqqq
+qq1qqq#qqqqqqqqqqqqqqqqqqqqq

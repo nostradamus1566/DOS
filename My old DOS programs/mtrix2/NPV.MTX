@@ -1,0 +1,48 @@
+Matrix spreadsheet v2.0
+234
+OKKKKKKKKKKKKKKKKKKKKKKKKK
+HAHA
+33
+A1=Discount rate
+B1=9%
+D3='          Time Period
+A4=Period of
+C4='-----------------------------------------------
+A5=Initial Inv
+B5=NPV
+C5=1
+D5=2
+E5=3
+F5=4
+G5=5
+A6='-------------
+B6='-------
+C6='----
+D6='----
+E6='----
+F6='----
+G6='----
+A7=End
+B7=@npv(B1, C7:G7)
+C7=-2000
+D7=1000
+E7=1500
+F7=1500
+G7=1500
+A9=Beginning
+B9=@npv(B1, D9:G9)+C9
+C9=-2000
+D9=1000
+E9=1500
+F9=1500
+G9=1500
+Properties
+qq!qqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qq#q!q!q!q!q!qqqqqqqqqqqqqqqqqqq
+qq#q!q!q!q!q!qqqqqqqqqqqqqqqqqqq
+qq£q!q!q!q!q!qqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qq£q!q!q!q!q!qqqqqqqqqqqqqqqqqqq

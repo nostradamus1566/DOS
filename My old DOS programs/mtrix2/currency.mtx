@@ -1,0 +1,104 @@
+Matrix spreadsheet v2.0
+546
+AAPFATMHEIKKKKKKKKKKKKKKKK
+HADA
+77
+A1=Irish pounds
+B1=0.787564
+F1=Euro currency converter sheet
+A3=German marks
+B3=1.95583
+D3=No.
+F3=Currency
+A4=French francs
+B4=6.55957
+D4=1
+F4=Irish pound
+G4=G5*B1
+A5=Italian lire
+B5=1936.27
+D5=2
+F5=Euro
+G5=@if(G18 < 12, (G$19* 1/@choose(G18, B1, B13)), G$19* 1/ @choose(G18-11, J20, J21))
+A6=Spanish pasetas
+B6=166.386
+D6=3
+F6=German marks
+G6=G$5*B3
+A7=Belgian/Lux francs
+B7=40.3399
+D7=4
+F7=French franc
+G7=G$5*B4
+A8=Portugese escudos
+B8=200.482
+D8=5
+F8=Italian lire
+G8=G$5*B5
+A9=Dutch guilders
+B9=2.20371
+D9=6
+F9=Spanish paseta
+G9=G$5*B6
+A10=Finnish francs
+B10=5.94573
+D10=7
+F10=Belgian/Lux franc
+G10=G$5*B7
+A11=Austrian schillings
+B11=13.7603
+D11=8
+F11=Portugese escudo
+G11=G$5*B8
+A12=Pounds sterling
+B12=0.63
+D12=9
+F12=Dutch guilder
+G12=G$5*B9
+A13=US dollars
+B13=1.02
+D13=10
+F13=Finnish franc
+G13=G$5*B10
+D14=11
+F14=Austrian schilling
+G14=G$5*B11
+D15=12
+F15=Pound sterling
+G15=G$5*J20
+D16=13
+F16=US dollar
+G16=G$5*J21
+C17='-------------------------------------------------------------------------
+C18=Enter currency number
+G18=12
+C19=Enter amount to convert
+G19=160.34
+I19=Foreign Rates
+I20=UK
+J20=.62
+C21=Change the foreign rates if necessary
+I21=US
+J21=1.02
+Properties
+11111111111111111111111111
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+111131111111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+1111¡11ƒ1Ã1111111111111111111
+qqqq¡qqƒqÃqqqqqqqqqqqqqqqqqqq
+11111111111111111111111111
+qqqqqqñqqqqqqqqqqqqqqqqqqq
+111111ñC1111111111111111111
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+11111111111111111111111111

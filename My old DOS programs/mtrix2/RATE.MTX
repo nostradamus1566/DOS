@@ -1,0 +1,24 @@
+Matrix spreadsheet v2.0
+208
+OKKKKKKKKKKKKKKKKKKKKKKKKK
+HAHA
+10
+A2=Calculation of the Implied Annual Interest Rate on a Zero Coupon Bond
+B3='      **********************************************
+A6=Future Value
+B6=1000
+A7=Present Value
+B7=350
+D7=Interest Rate
+F7=@rate(b6, b7, b8)
+A8=Term
+B8=10
+Properties
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqÅqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq

@@ -1,0 +1,23 @@
+Matrix spreadsheet v2.0
+182
+QLKOKKKKKKKKKKKKKKKKKKKKKK
+HAHA
+10
+A2=Calculation of the Term req. for an Investment to Grow to a Future Value
+A3='                 *************************************
+A5=Interest Rate
+B5=10%
+D5=Compound Term
+E5=@cterm(b5, b6, b7)
+A6=Future Value
+B6=10000
+A7=Present Value
+B7=2000
+Properties
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqƒq†qqqqqqqqqqqqqqqqqqqqq
+qqAqqqqqqqqqqqqqqqqqqqqqqqq
+qqAqqqqqqqqqqqqqqqqqqqqqqqq

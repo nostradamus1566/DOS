@@ -1,0 +1,32 @@
+Matrix spreadsheet v2.0
+338
+SVKKKKKKKKKKKKKKKKKKKKKKKK
+HAHA
+13
+A2=Payment
+B2=1500
+A3=Interest rate
+B3=10%
+A4=Term (years)
+B4=20
+A6=Present Value
+A7='----------------
+A8=Ordinary Annuity
+B8=b2*((1-(1+b3/100)^(-b4))/(b3/100))
+A10=Annuity due
+B10=B2*((1-(1+B3/100)^(-B4))/(B3/100))*(1+b3/100)
+A13=@pv(b2, b3, b4)+1*7
+Properties
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqCqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qq√qqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qq√qqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqq
